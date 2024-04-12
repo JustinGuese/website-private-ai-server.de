@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<style>img.lazy{min-height:1px}</style>
+<link rel="preload" href="/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js" as="script">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">		<title>Datenschutzerklärung &#8211; Private AI Server</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="dns-prefetch" href="//stats.wp.com">
+<link rel="dns-prefetch" href="//admin.revenuehunt.com">
+<link rel="alternate" type="application/rss+xml" title="Private AI Server &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="Private AI Server &raquo; Kommentar-Feed" href="/comments/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.25.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-PS7Y6ETF03" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.25.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"\/datenschutzerklaerung\/?simply_static_page=721"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-PS7Y6ETF03',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-PS7Y6ETF03', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=f92ea97e3bb188090c06382645cf1744"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel="stylesheet" id="wc-blocks-checkout-style-css" href="/wp-content/plugins/woocommerce-payments/dist/blocks-checkout.css?ver=1.0" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=f92ea97e3bb188090c06382645cf1744" type="text/css" media="all">
+<style id="wp-block-library-theme-inline-css" type="text/css">.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:#ffffffa6}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:#ffffffa6}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}</style>
+<link rel="stylesheet" id="smartic-gutenberg-blocks-css" href="/wp-content/themes/smartic/assets/css/base/gutenberg-blocks.css?ver=2.1.6" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 23px;--wp--preset--font-size--large: 26px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 37px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
+<link rel="stylesheet" id="woo-variation-swatches-css" href="/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1708340824" type="text/css" media="all">
+<style id="woo-variation-swatches-inline-css" type="text/css">:root {
+--wvs-tick:url("data:image/svg+xml;utf8,%3Csvg filter='drop-shadow(0px 0px 2px rgb(0 0 0 / .8))' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M4 16L11 23 27 7'/%3E%3C/svg%3E");
+
+--wvs-cross:url("data:image/svg+xml;utf8,%3Csvg filter='drop-shadow(0px 0px 5px rgb(255 255 255 / .6))' xmlns='http://www.w3.org/2000/svg' width='72px' height='72px' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23ff0000' stroke-linecap='round' stroke-width='0.6' d='M5 5L19 19M19 5L5 19'/%3E%3C/svg%3E");
+--wvs-single-product-item-width:30px;
+--wvs-single-product-item-height:30px;
+--wvs-single-product-item-font-size:16px}</style>
+<link rel="stylesheet" id="smartic-style-css" href="/wp-content/themes/smartic/style.css?ver=2.1.6" type="text/css" media="all">
+<style id="smartic-style-inline-css" type="text/css">body{--primary:#7C9CCD;--primary_hover:#708DBA;--secondary:#289C28;--text:#666666;--accent:#000000;}</style>
+<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.20.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-7-css" href="/wp-content/uploads/elementor/css/post-7.css?ver=1708981311" type="text/css" media="all">
+<link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.19.0" type="text/css" media="all">
+<style id="elementor-pro-inline-css" type="text/css">.elementor-widget-woocommerce-checkout-page .woocommerce table.woocommerce-checkout-review-order-table {
+				    margin: var(--sections-margin, 24px 0 24px 0);
+				    padding: var(--sections-padding, 16px 16px);
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce table.woocommerce-checkout-review-order-table .cart_item td.product-name {
+				    padding-right: 20px;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce .woocommerce-checkout #payment {
+					border: none;
+					padding: 0;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce .e-checkout__order_review-2 {
+					background: var(--sections-background-color, #ffffff);
+				    border-radius: var(--sections-border-radius, 3px);
+				    padding: var(--sections-padding, 16px 30px);
+				    margin: var(--sections-margin, 0 0 24px 0);
+				    border-style: var(--sections-border-type, solid);
+				    border-color: var(--sections-border-color, #D5D8DC);
+				    border-width: 1px;
+				    display: block;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce-checkout .place-order {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-orient: vertical;
+					-webkit-box-direction: normal;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-ms-flex-wrap: wrap;
+					flex-wrap: wrap;
+					padding: 0;
+					margin-bottom: 0;
+					margin-top: 1em;
+					-webkit-box-align: var(--place-order-title-alignment, stretch);
+					-ms-flex-align: var(--place-order-title-alignment, stretch);
+					align-items: var(--place-order-title-alignment, stretch); 
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce-checkout #place_order {
+					background-color: #5bc0de;
+					width: var(--purchase-button-width, auto);
+					float: none;
+					color: var(--purchase-button-normal-text-color, #ffffff);
+					min-height: auto;
+					padding: var(--purchase-button-padding, 1em 1em);
+					border-radius: var(--purchase-button-border-radius, 3px); 
+		        }
+		        .elementor-widget-woocommerce-checkout-page .woocommerce-checkout #place_order:hover {
+					background-color: #5bc0de;
+					color: var(--purchase-button-hover-text-color, #ffffff);
+					border-color: var(--purchase-button-hover-border-color, #5bc0de);
+					-webkit-transition-duration: var(--purchase-button-hover-transition-duration, 0.3s);
+					-o-transition-duration: var(--purchase-button-hover-transition-duration, 0.3s);
+					transition-duration: var(--purchase-button-hover-transition-duration, 0.3s); 
+                }</style>
+<link rel="stylesheet" id="font-awesome-5-all-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.20.4" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.20.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/wp-content/uploads/elementor/css/global.css?ver=1708981312" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-668-css" href="/wp-content/uploads/elementor/css/post-668.css?ver=1708981312" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-235-css" href="/wp-content/uploads/elementor/css/post-235.css?ver=1708981312" type="text/css" media="all">
+<link rel="stylesheet" id="pmw-public-elementor-fix-css" href="/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/css/public/elementor-fix.css?ver=1.40.0" type="text/css" media="all">
+<link rel="stylesheet" id="smartic-elementor-css" href="/wp-content/themes/smartic/assets/css/base/elementor.css?ver=2.1.6" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-gzd-layout-css" href="/wp-content/plugins/woocommerce-germanized/build/static/layout-styles.css?ver=3.15.6" type="text/css" media="all">
+<style id="woocommerce-gzd-layout-inline-css" type="text/css">.woocommerce-checkout .shop_table { background-color: #eeeeee; } .product p.deposit-packaging-type { font-size: 1.25em !important; } p.woocommerce-shipping-destination { display: none; }
+                .wc-gzd-nutri-score-value-a {
+                    background: url(/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-a.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-b {
+                    background: url(/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-b.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-c {
+                    background: url(/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-c.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-d {
+                    background: url(/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-d.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-e {
+                    background: url(/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-e.svg) no-repeat;
+                }</style>
+<link rel="stylesheet" id="smartic-woocommerce-style-css" href="/wp-content/themes/smartic/assets/css/woocommerce/woocommerce.css?ver=2.1.6" type="text/css" media="all">
+<link rel="stylesheet" id="smartic-child-style-css" href="/wp-content/themes/smartic-child/style.css?ver=2.1.6" type="text/css" media="all">
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/w.js?ver=202415" id="woo-tracks-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.25.0" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="monsterinsights-frontend-script-js-extra">/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"","hash_tracking":"false","v4_id":"G-PS7Y6ETF03"};/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.7.0" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"","cart_url":"\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.7.0" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.7.0" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.7.0" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" id="WCPAY_ASSETS-js-extra">
+/* <![CDATA[ */
+var wcpayAssets = {"url":"\/wp-content\/plugins\/woocommerce-payments\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.20.4" id="font-awesome-4-shim-js"></script>
+<script type="text/javascript" id="wpm-js-extra">
+/* <![CDATA[ */
+var wpm = {"ajax_url":"\/wp-admin\/admin-ajax.php","root":"\/wp-json\/","nonce_wp_rest":"727234fbef","nonce_ajax":"82137093e4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/public/wpm-public.p1.min.js?ver=1.40.0" id="wpm-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/25910">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="canonical" href="/datenschutzerklaerung/">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fdatenschutzerklaerung%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fdatenschutzerklaerung%2F#038;format=xml">
+<script id="pixel-script-poptin" src="https://cdn.popt.in/pixel.js?id=6bc744d46b965" async="true"></script> <!-- Google site verification - Google Listings & Ads -->
+<meta name="google-site-verification" content="ckPhpfYMkVZ4cWbl-qWeKOGGZsSE2JpajzetoOZF5zM">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.20.4; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+
+<!-- START Pixel Manager for WooCommerce -->
+
+		<script>window.wpmDataLayer = window.wpmDataLayer || {}
+			window.wpmDataLayer = Object.assign(window.wpmDataLayer, {"cart":{},"cart_item_keys":{},"version":{"number":"1.40.0","pro":false,"eligible_for_updates":false,"distro":"fms","beta":false},"pixels":{"google":{"linker":{"settings":null},"user_id":false,"ads":{"conversionIds":{"AW-16466092920":"rxy1CNzrjpQZEPjG0qs9"},"dynamic_remarketing":{"status":true,"id_type":"gla","send_events_with_parent_ids":true},"google_business_vertical":"retail","phone_conversion_label":"","phone_conversion_number":""},"analytics":{"ga4":{"measurement_id":"G-PS7Y6ETF03","parameters":{},"mp_active":false,"debug_mode":false,"page_load_time_tracking":false},"id_type":"post_id","eec":false}},"facebook":{"pixel_id":"1535044777290281","dynamic_remarketing":{"id_type":"gla"},"capi":false,"advanced_matching":false,"exclusion_patterns":[],"fbevents_js_url":"https://connect.facebook.net/en_US/fbevents.js"}},"shop":{"list_name":"Page | Datenschutzerklärung","list_id":"page_datenschutzerklaerung","page_type":"page","currency":"USD","selectors":{"addToCart":[],"beginCheckout":[]},"order_duplication_prevention":false,"view_item_list_trigger":{"test_mode":false,"background_color":"green","opacity":0.5,"repeat":true,"timeout":1000,"threshold":0.8},"variations_output":true},"general":{"user_logged_in":false,"scroll_tracking_thresholds":[],"page_id":25910,"exclude_domains":[],"server_2_server":{"active":false,"ip_exclude_list":[]},"cookie_consent_mgmt":{"explicit_consent":false}}})</script>
+
+		
+<!-- END Pixel Manager for WooCommerce -->
+<meta name="generator" content="Powered by Slider Revolution 6.6.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<script>var woocs_is_mobile = 0;
+        var woocs_special_ajax_mode = 0;
+        var woocs_drop_down_view = "ddslick";
+        var woocs_current_currency = {"name":"USD","rate":0.91,"symbol":"$","position":"right","is_etalon":0,"description":"USA dollar","hide_cents":0,"hide_on_front":0,"flag":""};
+        var woocs_default_currency = {"name":"EUR","rate":1,"symbol":"€","position":"left_space","is_etalon":1,"description":"European Euro","hide_cents":0,"hide_on_front":0,"flag":""};
+        var woocs_redraw_cart = 1;
+        var woocs_array_of_get = '{}';
+                                woocs_array_of_get = '{"simply_static_page":"721"}';
+        
+        woocs_array_no_cents = '["JPY","TWD"]';
+
+        var woocs_ajaxurl = "/wp-admin/admin-ajax.php";
+        var woocs_lang_loading = "loading";
+        var woocs_shop_is_cached =0;</script><style id="wpforms-css-vars-root">:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}</style>
+</head>
+<body data-rsssl="1" class="privacy-policy page-template-default page page-id-25910 wp-custom-logo wp-embed-responsive theme-smartic woocommerce-no-js woo-variation-swatches wvs-behavior-blur wvs-theme-smartic-child wvs-show-label wvs-tooltip woocommerce-active product-style-2 single-product-1 elementor-default elementor-kit-7 currency-usd">
+    <div id="page" class="hfeed site">
+    		<div data-elementor-type="header" data-elementor-id="668" class="elementor elementor-668 elementor-location-header" data-elementor-post-type="elementor_library">
+					<div class="elementor-section elementor-top-section elementor-element elementor-element-f8e23c0 elementor-section-stretched elementor-section-height-min-height header-absolute elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f8e23c0" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-97c3af3" data-id="97c3af3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2177ce9 elementor-widget__width-auto elementor-hidden-desktop elementor-widget elementor-widget-smartic-vertical-menu" data-id="2177ce9" data-element_type="widget" data-widget_type="smartic-vertical-menu.default">
+				<div class="elementor-widget-container">
+			        <div class="elementor-canvas-menu-wrapper">
+                        <a href="#" class="menu-mobile-nav-button">
+				<span class="toggle-text screen-reader-text">Menu</span>
+                <i class="smartic-icon-bars"></i>
+            </a>
+                    </div>
+        		</div>
+				</div>
+				<div class="elementor-element elementor-element-f18a569 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="f18a569" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.20.0 - 10-04-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>											<a href="https://demo2wpopal.b-cdn.net/smartic/">
+							<img fetchpriority="high" width="401" height="281" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20401%20281'%3E%3C/svg%3E" data-src="/wp-content/uploads/2024/02/logo-privateaiserver.png" class="attachment-full size-full wp-image-25959 lazy" alt="" data-srcset="https://private-ai-server.de/wp-content/uploads/2024/02/logo-privateaiserver.png 401w, https://private-ai-server.de/wp-content/uploads/2024/02/logo-privateaiserver-300x210.png 300w" data-sizes="(max-width: 401px) 100vw, 401px">								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-d846179 elementor-widget__width-auto elementor-hidden-desktop elementor-widget elementor-widget-smartic-header-group" data-id="d846179" data-element_type="widget" data-widget_type="smartic-header-group.default">
+				<div class="elementor-widget-container">
+			        <div class="elementor-header-group-wrapper">
+            <div class="header-group-action">
+
+                
+                
+                
+                                        <div class="site-header-cart menu">
+                                    <a class="cart-contents" href="/cart/" title="View your shopping cart">
+                        <span class="count">0</span>
+            <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi>0,00<span class="woocommerce-Price-currencySymbol">&#36;</span></bdi></span></span>        </a>
+                                                            </div>
+                        
+                
+            </div>
+        </div>
+        		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bb79caa elementor-hidden-tablet elementor-hidden-phone" data-id="bb79caa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-67aa8c0 elementor-widget elementor-widget-smartic-nav-menu" data-id="67aa8c0" data-element_type="widget" data-widget_type="smartic-nav-menu.default">
+				<div class="elementor-widget-container">
+			        <div class="elementor-nav-menu-wrapper">
+            <nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
+                <div class="primary-navigation"><ul id="menu-1-67aa8c0" class="menu">
+<li id="menu-item-25964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25964"><a href="/">Home</a></li>
+<li id="menu-item-25965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25965"><a href="/shop/">Shop</a></li>
+<li id="menu-item-25966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25966"><a href="/about/">Über uns</a></li>
+<li id="menu-item-26161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26161">
+<a href="/case-studies/">Case Studies</a>
+<ul class="sub-menu">
+	<li id="menu-item-26162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26162"><a href="/case-studies/case-study-gpu-ai-server-im-openshift-cluster-einer-grossen-deutschen-bank/">Bank: Physische AI Server im OpenShift Cluster</a></li>
+	<li id="menu-item-26183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26183"><a href="/case-studies/klinik-automatisch-pseudonymisierende-datenbank/">Klinik: Automatisch pseudonymisierende Datenbank</a></li>
+	<li id="menu-item-26184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26184"><a href="/case-studies/bank-physische-ai-server-im-openshift-cluster/">Social Media Agentur: Private AI Copilot mit kundenspezifischem Wissen</a></li>
+</ul>
+</li>
+<li id="menu-item-25968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25968"><a href="/contact/">Kontakt</a></li>
+<li id="menu-item-25969" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-25969">
+<a href="/impressum/">Infos</a>
+<ul class="sub-menu">
+	<li id="menu-item-26163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26163"><a href="/my-account/">My account</a></li>
+	<li id="menu-item-25970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25970"><a href="/impressum/">Impressum</a></li>
+	<li id="menu-item-25972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25972"><a href="/agb/">AGB</a></li>
+	<li id="menu-item-25973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-25910 current_page_item menu-item-25973"><a rel="privacy-policy" href="/datenschutzerklaerung/" aria-current="page">Datenschutzerklärung</a></li>
+	<li id="menu-item-25974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25974"><a href="/widerrufsbelehrung/">Widerrufsbelehrung</a></li>
+	<li id="menu-item-25975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25975"><a href="/versandarten/">Versandarten</a></li>
+	<li id="menu-item-25977" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25977"><a href="/bezahlmoeglichkeiten/">Zahlungsarten</a></li>
+</ul>
+</li>
+</ul></div>            </nav>
+        </div>
+        		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c69a7a3 elementor-hidden-tablet elementor-hidden-phone" data-id="c69a7a3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-dd8ce65 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="dd8ce65" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/contact">
+
+											<span class="elementor-icon-list-text">+49 1601136770</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f4c23ea account-style-content-yes elementor-widget__width-auto elementor-widget elementor-widget-smartic-header-group" data-id="f4c23ea" data-element_type="widget" data-widget_type="smartic-header-group.default">
+				<div class="elementor-widget-container">
+			        <div class="elementor-header-group-wrapper">
+            <div class="header-group-action">
+
+                        <div class="site-header-account">
+            <a href="/my-account/">
+                <i class="smartic-icon-user"></i>
+                <span class="account-content">
+                    Login / Register                </span>
+            </a>
+            <div class="account-dropdown">
+
+            </div>
+        </div>
+        
+                        <div class="site-header-search">
+            <a href="#" class="button-search-popup"><i class="smartic-icon-search-header"></i></a>
+                    <div class="site-search-popup">
+            <div class="site-search-popup-wrap">
+                            <div class="site-search">
+                <div class="widget woocommerce widget_product_search">			<div class="ajax-search-result" style="display:none;">
+			</div>
+			<form role="search" method="get" class="woocommerce-product-search" action="https://private-ai-server.de/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" autocomplete="off" value="" name="s">
+	<button type="submit" value="Search">Search</button>
+	<input type="hidden" name="post_type" value="product">
+</form>
+</div>            </div>
+                            <a href="#" class="site-search-popup-close">
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="23.691" height="22.723" viewbox="0 0 23.691 22.723">
+                        <g transform="translate(-126.154 -143.139)">
+                            <line x2="23" y2="22" transform="translate(126.5 143.5)" fill="none" stroke="CurrentColor" stroke-width="1"></line>
+                            <path d="M0,22,23,0" transform="translate(126.5 143.5)" fill="none" stroke="CurrentColor" stroke-width="1"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+                </div>
+        
+                
+                                        <div class="site-header-cart menu">
+                                    <a class="cart-contents" href="/cart/" title="View your shopping cart">
+                        <span class="count">0</span>
+            <span class="woocs_special_price_code"><span class="woocommerce-Price-amount amount"><bdi>0,00<span class="woocommerce-Price-currencySymbol">&#36;</span></bdi></span></span>        </a>
+                                                            </div>
+                        
+                                    <div class="site-header-button">
+                        <a class="button-content" href="#">
+                            <span class="icon-1"></span>
+                            <span class="icon-2"></span>
+                            <span class="icon-3"></span>
+                        </a>
+                        <div class="header-button-canvas">
+                                                        <div class="button-side-heading">
+                                <a class="close-button-side" href="#"><i class="smartic-icon-times"></i></a>
+                            </div>
+                            <div class="header-template-canvas">
+                                		<div data-elementor-type="section" data-elementor-id="800" class="elementor elementor-800 elementor-location-header" data-elementor-post-type="elementor_library">
+					<div class="elementor-section elementor-top-section elementor-element elementor-element-c3500c4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c3500c4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aae3651" data-id="aae3651" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-aafbaaf elementor-widget elementor-widget-image" data-id="aafbaaf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="https://demo2wpopal.b-cdn.net/smartic/">
+							<img width="130" height="21" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20130%2021'%3E%3C/svg%3E" data-src="/wp-content/uploads/2020/10/logo_white.svg" class="attachment-full size-full wp-image-711 lazy" alt="Smartic">								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-da5cee5 elementor-widget elementor-widget-text-editor" data-id="da5cee5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.20.0 - 10-04-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-74b5ade elementor-widget elementor-widget-heading" data-id="74b5ade" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.20.0 - 10-04-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2 class="elementor-heading-title elementor-size-default">Where to find us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0e2e4fa elementor-widget elementor-widget-text-editor" data-id="0e2e4fa" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #ffffff;"><strong>A</strong></span>:123 John St, NY 10000, USA<br>
+New York 10010						</div>
+				</div>
+				<div class="elementor-element elementor-element-ca7c0c1 elementor-widget elementor-widget-text-editor" data-id="ca7c0c1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #ffffff;"><strong>T</strong></span>: 123 456 789 0 / 000 123 456 78						</div>
+				</div>
+				<div class="elementor-element elementor-element-bfcc96f elementor-widget elementor-widget-text-editor" data-id="bfcc96f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #ffffff;"><strong>E</strong></span>: email@exampledemo.com						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</div>
+				</div>
+		                            </div>
+                        </div>
+                        <div class="button-side-overlay"></div>
+                    </div>
+                    
+            </div>
+        </div>
+        		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-af5fada elementor-section-height-min-height elementor-section-stretched smartic-breadcrumb elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="af5fada" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2deb645" data-id="2deb645" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-16b2232 hidden-smartic-title-single-yes elementor-widget elementor-widget-smartic-woocommerce-breadcrumb" data-id="16b2232" data-element_type="widget" data-widget_type="smartic-woocommerce-breadcrumb.default">
+				<div class="elementor-widget-container">
+			<div class="smartic-woocommerce-title">Datenschutzerklärung</div>
+<nav class="woocommerce-breadcrumb"><span><a href="/">Home Page</a></span><i class="smartic-icon-long-arrow-right"></i><span>Datenschutzerklärung</span></nav>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</div>
+				</div>
+		    <div id="content" class="site-content" tabindex="-1">
+        <div class="col-full">
+    <div class="woocommerce"></div>
+	<div id="primary">
+		<main id="main" class="site-main" role="main">
+
+			<article id="post-25910" class="post-25910 page type-page status-publish hentry">
+	        <header class="entry-header">
+            <h1 class="entry-title">Datenschutzerklärung</h1>        </header><!-- .entry-header -->
+                <div class="entry-content">
+            
+<p>Datenschutzerklärung Wir freuen uns sehr, dass Sie Interesse an unserem Unternehmen gezeigt haben. Der Datenschutz hat bei der Verwaltung der DataFortress.cloud eine besonders hohe Priorität. Die Nutzung der Internetseiten der DataFortress.cloud ist ohne Angabe personenbezogener Daten möglich; wenn eine betroffene Person jedoch spezielle Unternehmensdienste über unsere Website in Anspruch nehmen möchte, könnte eine Verarbeitung personenbezogener Daten erforderlich werden. Wenn die Verarbeitung personenbezogener Daten notwendig ist und es keine gesetzliche Grundlage für eine solche Verarbeitung gibt, holen wir in der Regel die Zustimmung der betroffenen Person ein.</p>
+
+
+
+<p>Die Verarbeitung personenbezogener Daten, wie z.B. Name, Adresse, E-Mail-Adresse oder Telefonnummer einer betroffenen Person erfolgt stets im Einklang mit der Allgemeinen Datenschutzverordnung (GDPR) und in Übereinstimmung mit den für die DataFortress.cloud geltenden länderspezifischen Datenschutzbestimmungen. Mit dieser Datenschutzerklärung möchte unser Unternehmen die Öffentlichkeit über Art, Umfang und Zweck der von uns erhobenen, verwendeten und verarbeiteten personenbezogenen Daten informieren. Darüber hinaus werden die Betroffenen mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte informiert.</p>
+
+
+
+<p>Als Verantwortlicher hat die DataFortress.cloud zahlreiche technische und organisatorische Maßnahmen ergriffen, um einen möglichst vollständigen Schutz der über diese Website verarbeiteten personenbezogenen Daten zu gewährleisten. Allerdings können internetbasierte Datenübertragungen prinzipiell Sicherheitslücken aufweisen, so dass ein absoluter Schutz möglicherweise nicht gewährleistet ist. Aus diesem Grund steht es jeder betroffenen Person frei, persönliche Daten über alternative Wege, z.B. per Telefon, an uns zu übermitteln.</p>
+
+
+
+<ol>
+<li>Definitionen Die Datenschutzerklärung der DataFortress.cloud basiert auf den vom europäischen Gesetzgeber bei der Verabschiedung der Allgemeinen Datenschutzverordnung (GDPR) verwendeten Begriffen. Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir Ihnen zunächst die verwendete Terminologie erläutern.</li>
+</ol>
+
+
+
+<p>In dieser Datenschutzerklärung verwenden wir unter anderem die folgenden Begriffe:</p>
+
+
+
+<p>a) Persönliche Daten Personenbezogene Daten sind alle Informationen, die sich auf eine bestimmte oder bestimmbare natürliche Person (“betroffene Person”) beziehen. Eine identifizierbare natürliche Person ist eine Person, die direkt oder indirekt identifiziert werden kann, insbesondere durch Bezugnahme auf eine Kennung wie einen Namen, eine Kennnummer, Standortdaten, eine Online-Kennung oder auf einen oder mehrere spezifische Faktoren, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.</p>
+
+
+
+<p>b) Datensubjekt Datensubjekt ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten von dem für die Verarbeitung verantwortlichen Controller verarbeitet werden.</p>
+
+
+
+<p>c) Verarbeitung Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede Vorgangsreihe im Zusammenhang mit personenbezogenen Daten oder Personengruppen, wie das Erheben, das Speichern, die Organisation, die Strukturierung, die Speicherung, die Anpassung oder die Veränderung, das Auslesen, das Abfragen, die Benutzung, die Weitergabe durch Übermittlung, Verbreitung oder jede andere Form der Bereitstellung, die Kombination oder die Verknüpfung, die Einschränkung, die Löschung oder die Vernichtung.</p>
+
+
+
+<p>d) Beschränkung der Verarbeitung Beschränkung der Verarbeitung ist die Kennzeichnung gespeicherter personenbezogener Daten mit dem Ziel, ihre Verarbeitung in Zukunft einzuschränken.</p>
+
+
+
+<p>e) Profilierung Unter Profiling ist jede Form der automatisierten Verarbeitung personenbezogener Daten zu verstehen, die in der Verwendung personenbezogener Daten zur Bewertung bestimmter persönlicher Aspekte in Bezug auf eine natürliche Person besteht, insbesondere zur Analyse oder Vorhersage von Aspekten im Zusammenhang mit der Arbeitsleistung, der wirtschaftlichen Lage, der Gesundheit, den persönlichen Präferenzen, den Interessen, der Zuverlässigkeit, dem Verhalten, dem Standort oder den Bewegungen dieser natürlichen Person.</p>
+
+
+
+<p>f) Pseudonymisierung Pseudonymisierung ist die Verarbeitung personenbezogener Daten in der Weise, dass die personenbezogenen Daten ohne die Verwendung zusätzlicher Informationen nicht mehr einer bestimmten Person zugeordnet werden können, sofern diese zusätzlichen Informationen getrennt aufbewahrt werden und durch technische und organisatorische Maßnahmen sichergestellt ist, dass die personenbezogenen Daten nicht einer bestimmten oder bestimmbaren natürlichen Person zugeordnet werden können.</p>
+
+
+
+<p>g) Für die Verarbeitung verantwortlicher Inhaber oder für die Verarbeitung Verantwortlicher Der für die Verarbeitung Verantwortliche oder der für die Verarbeitung Verantwortliche ist die natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet; wenn die Zwecke und Mittel dieser Verarbeitung durch das Recht der Union oder der Mitgliedstaaten festgelegt sind, können der für die Verarbeitung Verantwortliche oder die spezifischen Kriterien für seine Benennung durch das Recht der Union oder der Mitgliedstaaten vorgesehen werden.</p>
+
+
+
+<p>h) Auftragsverarbeiter Verarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die personenbezogene Daten im Auftrag des für die Verarbeitung Verantwortlichen verarbeitet.</p>
+
+
+
+<p>i) Empfänger Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder eine andere Stelle, an die die personenbezogenen Daten weitergegeben werden, unabhängig davon, ob es sich um einen Dritten handelt oder nicht. Behörden, die im Rahmen einer bestimmten Untersuchung im Einklang mit dem Recht der Union oder der Mitgliedstaaten personenbezogene Daten erhalten können, gelten jedoch nicht als Empfänger; die Verarbeitung dieser Daten durch diese Behörden erfolgt im Einklang mit den geltenden Datenschutzvorschriften entsprechend den Zwecken der Verarbeitung.</p>
+
+
+
+<p>j) Dritte Dritte ist eine natürliche oder juristische Person, Behörde, Einrichtung oder Stelle, bei der es sich nicht um die betroffene Person, den für die Verarbeitung Verantwortlichen, den Auftragsverarbeiter und die Personen handelt, die unter der direkten Aufsicht des für die Verarbeitung Verantwortlichen oder des Auftragsverarbeiters befugt sind, personenbezogene Daten zu verarbeiten.</p>
+
+
+
+<p>k) Einwilligung Die Einwilligung der betroffenen Person ist jede Willensbekundung, die ohne Zwang, spezifisch, sachkundig und unmissverständlich erfolgt und mit der die betroffene Person durch eine Erklärung oder eine eindeutige positive Handlung ihr Einverständnis mit der Verarbeitung sie betreffender personenbezogener Daten bekundet.</p>
+
+
+
+<ol start="2">
+<li>Name und Adresse des Inhabers der Datensammlung Verantwortlicher für die Zwecke der Allgemeinen Datenschutzverordnung (GDPR), anderer in den Mitgliedstaaten der Europäischen Union geltender Datenschutzgesetze und anderer datenschutzrechtlicher Bestimmungen ist:</li>
+</ol>
+
+
+
+<p>DataFortress.cloud UG Georgenstraße 13 86152 Augsburg Germany DE345185498</p>
+
+
+
+<p>Email:&nbsp;<a href="mailto:info@datafortress.cloud">info@datafortress.cloud</a>&nbsp;Website:</p>
+
+
+
+<ol start="3">
+<li>Cookies</li>
+</ol>
+
+
+
+<p>Die Internetseiten der DataFortress.cloud verwenden Cookies. Cookies sind Textdateien, die über einen Internet-Browser in einem Computersystem gespeichert werden.</p>
+
+
+
+<figure class="wp-block-table"><table>
+<thead><tr>
+<th>Cookie</th>
+<th>Description</th>
+<th>Duration</th>
+<th>Type</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>_ga</td>
+<td>This cookie is installed by Google Analytics. The cookie is used to calculate visitor, session, campaign data and keep track of site usage for the site’s analytics report. The cookies store information anonymously and assign a randomly generated number to identify unique visitors.</td>
+<td>2 years</td>
+<td>Analytics</td>
+</tr>
+<tr>
+<td>_gid</td>
+<td>This cookie is installed by Google Analytics. The cookie is used to store information of how visitors use a website and helps in creating an analytics report of how the wbsite is doing. The data collected including the number visitors, the source where they have come from, and the pages viisted in an anonymous form.</td>
+<td>1 day</td>
+<td>Analytics</td>
+</tr>
+<tr>
+<td>_gat</td>
+<td>This cookies is installed by Google Universal Analytics to throttle the request rate to limit the colllection of data on high traffic sites.</td>
+<td>1 minute</td>
+<td>Performance</td>
+</tr>
+<tr>
+<td>CookieScriptConsent</td>
+<td>Needed to track cookie choice</td>
+<td>1 day</td>
+<td>Performance</td>
+</tr>
+</tbody>
+</table></figure>
+
+
+
+<p>Viele Internetseiten und Server verwenden Cookies. Viele Cookies enthalten eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige Kennung des Cookies. Sie besteht aus einer Zeichenfolge, durch die Internetseiten und Server dem spezifischen Internet-Browser zugeordnet werden können, in dem das Cookie gespeichert wurde. Auf diese Weise können besuchte Internetseiten und Server den einzelnen Browser des dats-Themas von anderen Internet-Browsern, die andere Cookies enthalten, unterscheiden. Ein spezifischer Internet-Browser kann anhand der eindeutigen Cookie-ID erkannt und identifiziert werden.</p>
+
+
+
+<p>Durch die Verwendung von Cookies kann die DataFortress.cloud den Benutzern dieser Website benutzerfreundlichere Dienste anbieten, die ohne die Cookie-Einstellung nicht möglich wären.</p>
+
+
+
+<p>Mit Hilfe eines Cookies können die Informationen und Angebote auf unserer Website im Hinblick auf den Benutzer optimiert werden. Cookies erlauben uns, wie bereits erwähnt, die Benutzer unserer Website wiederzuerkennen. Zweck dieser Wiedererkennung ist es, den Benutzern die Nutzung unserer Website zu erleichtern. Der Website-Nutzer, der Cookies verwendet, muss z.B. nicht bei jedem Zugriff auf die Website Zugangsdaten eingeben, da diese von der Website übernommen werden und der Cookie somit auf dem Computersystem des Nutzers gespeichert wird. Ein weiteres Beispiel ist das Cookie eines Einkaufswagens in einem Online-Shop. Der Online-Shop merkt sich über ein Cookie die Artikel, die ein Kunde in den virtuellen Einkaufswagen gelegt hat.</p>
+
+
+
+<p>Die betroffene Person kann das Setzen von Cookies über unsere Website jederzeit durch eine entsprechende Einstellung des verwendeten Internet-Browsers verhindern und somit das Setzen von Cookies dauerhaft verweigern. Zudem können bereits gesetzte Cookies jederzeit über einen Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist in allen gängigen Internet-Browsern möglich. Wenn die betroffene Person das Setzen von Cookies in dem verwendeten Internet-Browser deaktiviert, sind möglicherweise nicht alle Funktionen unserer Website vollständig nutzbar.</p>
+
+
+
+<ol start="4">
+<li>Erhebung allgemeiner Daten und Informationen Die Website der DataFortress.cloud sammelt eine Reihe allgemeiner Daten und Informationen, wenn eine betroffene Person oder ein automatisiertes System die Website aufruft. Diese allgemeinen Daten und Informationen werden in den Server-Protokolldateien gespeichert. Gesammelt werden können (1) die verwendeten Browsertypen und -versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) die Website, von der ein zugreifendes System auf unsere Website gelangt (so genannte Referrer), (4) die Unterwebsites, (5) Datum und Uhrzeit des Zugriffs auf die Internetseite, (6) eine Internetprotokolladresse (IP-Adresse), (7) der Internetdienstanbieter des zugreifenden Systems und (8) alle anderen ähnlichen Daten und Informationen, die im Falle von Angriffen auf unsere informationstechnologischen Systeme verwendet werden können.</li>
+</ol>
+
+
+
+<p>Bei der Verwendung dieser allgemeinen Daten und Informationen zieht die DataFortress.cloud keine Rückschlüsse auf das Datensubjekt. Vielmehr werden diese Informationen benötigt, um (1) den Inhalt unserer Website korrekt auszuliefern, (2) den Inhalt unserer Website sowie deren Werbung zu optimieren, (3) die langfristige Funktionsfähigkeit unserer informationstechnologischen Systeme und der Website-Technologie zu gewährleisten und (4) den Strafverfolgungsbehörden im Falle eines Cyber-Angriffs die für die Strafverfolgung erforderlichen Informationen zur Verfügung zu stellen. Daher analysiert die DataFortress.cloud anonym gesammelte Daten und Informationen statistisch, mit dem Ziel, den Datenschutz und die Datensicherheit unseres Unternehmens zu erhöhen und ein optimales Schutzniveau für die von uns verarbeiteten persönlichen Daten zu gewährleisten. Die anonymen Daten der Server-Protokolldateien werden getrennt von allen persönlichen Daten gespeichert, die von einem Datensubjekt zur Verfügung gestellt werden.</p>
+
+
+
+<ol start="5">
+<li>Anmeldung zu unseren Newslettern Auf der Website der DataFortress.cloud haben die Benutzer die Möglichkeit, den Newsletter unseres Unternehmens zu abonnieren. Die dazu verwendete Eingabemaske bestimmt, welche persönlichen Daten übermittelt werden und wann der Newsletter bei der für die Verarbeitung Verantwortlichen bestellt wird.</li>
+</ol>
+
+
+
+<p>Die DataFortress.cloud informiert ihre Kunden und Geschäftspartner regelmäßig in Form eines Newsletters über Angebote des Unternehmens. Der Newsletter des Unternehmens darf von der betroffenen Person nur dann empfangen werden, wenn (1) die betroffene Person über eine gültige E-Mail-Adresse verfügt und (2) die betroffene Person sich für den Newsletter-Versand registriert. An die E-Mail-Adresse, die die betroffene Person erstmals für den Newsletter-Versand registriert hat, wird aus rechtlichen Gründen im Double-Opt-In-Verfahren eine Bestätigungs-E-Mail an die registrierte E-Mail-Adresse geschickt. Diese Bestätigungs-E-Mail dient dem Nachweis, ob der Inhaber der E-Mail-Adresse als Betroffener zum Empfang des Newsletters berechtigt ist.</p>
+
+
+
+<p>Bei der Registrierung für den Newsletter speichern wir auch die IP-Adresse des vom Internet Service Provider (ISP) zugewiesenen und von der betroffenen Person zum Zeitpunkt der Registrierung verwendeten Computersystems sowie Datum und Uhrzeit der Registrierung. Die Erfassung dieser Daten ist notwendig, um den (möglichen) Missbrauch der E-Mail-Adresse einer betroffenen Person zu einem späteren Zeitpunkt nachvollziehen zu können, und dient damit dem Ziel des Rechtsschutzes der verantwortlichen Stelle.</p>
+
+
+
+<p>Die im Rahmen einer Registrierung für den Newsletter erhobenen personenbezogenen Daten werden nur für den Versand unseres Newsletters verwendet. Darüber hinaus können die Abonnenten des Newsletters per E-Mail informiert werden, sofern dies für den Betrieb des Newsletter-Dienstes oder einer entsprechenden Registrierung erforderlich ist, wie dies bei Änderungen des Newsletter-Angebots oder bei einer Änderung der technischen Gegebenheiten der Fall sein kann. Es erfolgt keine Weitergabe der durch den Newsletter-Dienst erhobenen personenbezogenen Daten an Dritte. Das Abonnement unseres Newsletters kann von der betroffenen Person jederzeit gekündigt werden. Die Einwilligung in die Speicherung personenbezogener Daten, die die betroffene Person für den Versand des Newsletters erteilt hat, kann jederzeit widerrufen werden. Zum Zwecke des Widerrufs der Einwilligung finden Sie in jedem Newsletter einen entsprechenden Link. Es ist auch jederzeit möglich, den Newsletter direkt auf der Website der verantwortlichen Stelle abzubestellen oder dies der verantwortlichen Stelle auf andere Weise mitzuteilen.</p>
+
+
+
+<ol start="6">
+<li>Newsletter-Verfolgung Der Newsletter der DataFortress.cloud enthält sogenannte Tracking-Pixel. Ein Tracking-Pixel ist eine Miniaturgrafik, die in solche E-Mails eingebettet ist, die im HTML-Format verschickt werden, um die Aufzeichnung und Analyse der Protokolldatei zu ermöglichen. Dies ermöglicht eine statistische Analyse des Erfolgs oder Misserfolgs von Online-Marketing-Kampagnen. Anhand des eingebetteten Tracking-Pixels kann die DataFortress.cloud erkennen, ob und wann eine E-Mail von einer betroffenen Person geöffnet wurde und welche Links in der E-Mail von den betroffenen Personen aufgerufen wurden.</li>
+</ol>
+
+
+
+<p>Diese persönlichen Daten, die in den in den Newslettern enthaltenen Tracking-Pixeln gesammelt werden, werden vom Controller gespeichert und analysiert, um den Versand des Newsletters zu optimieren und den Inhalt zukünftiger Newsletter noch besser an die Interessen der betroffenen Person anzupassen. Diese persönlichen Daten werden nicht an Dritte weitergegeben. Die betroffene Person hat jederzeit das Recht, die jeweils gesondert erteilte Einwilligungserklärung im Wege des Double-Opt-In-Verfahrens zu widerrufen. Nach einem Widerruf werden diese personenbezogenen Daten von der verantwortlichen Stelle gelöscht. Die DataFortress.cloud betrachtet einen Widerruf des Empfangs des Newsletters automatisch als Widerruf.</p>
+
+
+
+<ol start="7">
+<li>Kontaktmöglichkeit über die Website Die Website der DataFortress.cloud enthält Informationen, die eine schnelle elektronische Kontaktaufnahme mit unserem Unternehmen sowie eine direkte Kommunikation mit uns ermöglichen, wozu auch eine allgemeine Adresse der so genannten elektronischen Post (E-Mail-Adresse) gehört. Wenn sich eine betroffene Person per E-Mail oder über ein Kontaktformular an den für die Verarbeitung Verantwortlichen wendet, werden die von der betroffenen Person übermittelten personenbezogenen Daten automatisch gespeichert. Solche von einer betroffenen Person freiwillig an den Inhaber der Datensammlung übermittelten Personendaten werden zum Zweck der Bearbeitung oder Kontaktaufnahme mit der betroffenen Person gespeichert. Es erfolgt keine Weitergabe dieser persönlichen Daten an Dritte.</li>
+
+
+
+<li>Kommentarfunktion im Blog auf der Website Die DataFortress.cloud bietet Benutzern die Möglichkeit, individuelle Kommentare zu einzelnen Blog-Beiträgen auf einem Blog zu hinterlassen, der sich auf der Website des Controllers befindet. Ein Blog ist ein webbasiertes, öffentlich zugängliches Portal, über das eine oder mehrere Personen, die als Blogger oder Web-Blogger bezeichnet werden, Artikel posten oder Gedanken in so genannten Blogposts niederschreiben können. Blogposts können in der Regel von Dritten kommentiert werden.</li>
+</ol>
+
+
+
+<p>Hinterlässt eine betroffene Person einen Kommentar zu dem auf dieser Website veröffentlichten Blog, werden die Kommentare der betroffenen Person ebenfalls gespeichert und veröffentlicht, ebenso wie Informationen über das Datum des Kommentars und über das von der betroffenen Person gewählte (Pseudonym) des Nutzers. Darüber hinaus wird auch die IP-Adresse protokolliert, die der betroffenen Person vom Internet Service Provider (ISP) zugewiesen wurde. Diese Speicherung der IP-Adresse erfolgt aus Sicherheitsgründen und für den Fall, dass die betroffene Person die Rechte Dritter verletzt oder durch einen gegebenen Kommentar illegale Inhalte einstellt. Die Speicherung dieser persönlichen Daten liegt daher im Eigeninteresse des für die Datenverarbeitung Verantwortlichen, so dass er sich im Falle einer Verletzung entschuldigen kann. Diese gesammelten persönlichen Daten werden nicht an Dritte weitergegeben, es sei denn, eine solche Weitergabe ist gesetzlich vorgeschrieben oder dient dem Zweck der Verteidigung des Datenverantwortlichen.</p>
+
+
+
+<ol start="9">
+<li>Abonnement für Kommentare im Blog auf der Website Die im Blog der DataFortress.cloud gemachten Kommentare können von Dritten abonniert werden. Insbesondere besteht die Möglichkeit, dass ein Kommentator die Kommentare im Anschluss an seine Kommentare zu einem bestimmten Blog-Eintrag abonniert.</li>
+</ol>
+
+
+
+<p>Wenn sich eine betroffene Person entscheidet, die Option zu abonnieren, sendet der für die Verarbeitung Verantwortliche eine automatische Bestätigungs-E-Mail, um im Rahmen des Double-Opt-In-Verfahrens zu prüfen, ob der Inhaber der angegebenen E-Mail-Adresse sich für diese Option entschieden hat. Die Option, Kommentare zu abonnieren, kann jederzeit beendet werden.</p>
+
+
+
+<ol start="10">
+<li>Routinemäßige Löschung und Sperrung von Personendaten Der für die Verarbeitung Verantwortliche verarbeitet und speichert die personenbezogenen Daten der betroffenen Person nur für den Zeitraum, der zur Erreichung des Speicherzwecks erforderlich ist, oder soweit dies vom europäischen Gesetzgeber oder anderen Gesetzgebern in Gesetzen oder Verordnungen, denen der für die Verarbeitung Verantwortliche unterliegt, gewährt wird.</li>
+</ol>
+
+
+
+<p>Ist der Speicherzweck nicht anwendbar oder läuft eine vom europäischen Gesetzgeber oder einem anderen zuständigen Gesetzgeber vorgeschriebene Speicherfrist ab, werden die personenbezogenen Daten routinemäßig nach Maßgabe der gesetzlichen Bestimmungen gesperrt oder gelöscht.</p>
+
+
+
+<ol start="11">
+<li>Rechte des Betroffenen a) Recht auf Bestätigung Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu erhalten, ob sie betreffende personenbezogene Daten verarbeitet werden oder nicht. Wenn eine betroffene Person von diesem Bestätigungsrecht Gebrauch machen möchte, kann sie sich jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</li>
+</ol>
+
+
+
+<p>b) Recht auf Zugang Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen jederzeit unentgeltlich Auskunft über ihre gespeicherten personenbezogenen Daten sowie eine Kopie dieser Auskunft zu erhalten. Darüber hinaus gewähren die europäischen Richtlinien und Verordnungen der betroffenen Person Zugang zu den folgenden Informationen:</p>
+
+
+
+<p>die Zwecke der Verarbeitung; die betroffenen Kategorien personenbezogener Daten; die Empfänger oder Kategorien von Empfängern, an die die personenbezogenen Daten weitergegeben wurden oder werden, insbesondere Empfänger in Drittländern oder internationalen Organisationen; wenn möglich, den vorgesehenen Zeitraum, für den die personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien, die zur Bestimmung dieses Zeitraums herangezogen wurden; das Bestehen des Rechts, vom für die Verarbeitung Verantwortlichen die Berichtigung oder Löschung personenbezogener Daten oder die Einschränkung der Verarbeitung personenbezogener Daten, die die betroffene Person betreffen, zu verlangen oder Widerspruch gegen eine solche Verarbeitung einzulegen; das Bestehen des Rechts, eine Beschwerde bei einer Aufsichtsbehörde einzureichen; wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden, alle verfügbaren Informationen über ihre Quelle; das Vorhandensein automatisierter Entscheidungsfindung, einschließlich der Erstellung von Profilen, gemäß Artikel 22 Absätze 1 und 4 des BIPR und zumindest in diesen Fällen aussagekräftige Informationen über die betreffende Logik sowie die Bedeutung und die vorgesehenen Folgen einer solchen Verarbeitung für die betroffene Person. Ferner hat die betroffene Person das Recht, Auskunft darüber zu erhalten, ob personenbezogene Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. Ist dies der Fall, hat die betroffene Person das Recht, über die angemessenen Garantien im Zusammenhang mit der Übermittlung informiert zu werden.</p>
+
+
+
+<p>Wenn eine betroffene Person von diesem Auskunftsrecht Gebrauch machen möchte, kann sie sich jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
+
+
+
+<p>c) Recht auf Berichtigung Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen zu verlangen, dass unrichtige personenbezogene Daten, die sie betreffen, ohne unangemessene Verzögerung berichtigt werden. Unter Berücksichtigung der Zwecke der Verarbeitung hat die betroffene Person das Recht, unvollständige personenbezogene Daten vervollständigen zu lassen, auch durch die Abgabe einer ergänzenden Erklärung.</p>
+
+
+
+<p>Wenn eine betroffene Person von diesem Recht auf Berichtigung Gebrauch machen möchte, kann sie sich jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
+
+
+
+<p>d) Recht auf Löschung (Recht, vergessen zu werden) Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen die Löschung der sie betreffenden personenbezogenen Daten ohne unangemessene Verzögerung zu verlangen, und der für die Verarbeitung Verantwortliche ist verpflichtet, personenbezogene Daten ohne unangemessene Verzögerung zu löschen, wenn einer der folgenden Gründe vorliegt, solange die Verarbeitung nicht erforderlich ist:</p>
+
+
+
+<p>Die personenbezogenen Daten sind im Zusammenhang mit den Zwecken, für die sie erhoben oder anderweitig verarbeitet wurden, nicht mehr erforderlich. Die betroffene Person widerruft die Einwilligung, auf die sich die Verarbeitung gemäß Artikel 6 Absatz 1 Buchstabe a oder Artikel 9 Absatz 2 Buchstabe a des BIPR stützt, wenn kein anderer Rechtsgrund für die Verarbeitung vorliegt. Die betroffene Person widerspricht der Verarbeitung gemäß Artikel 21 Absatz 1 des BIPR, und es gibt keine zwingenden berechtigten Gründe für die Verarbeitung, oder die betroffene Person widerspricht der Verarbeitung gemäß Artikel 21 Absatz 2 des BIPR. Die Personendaten sind unrechtmässig verarbeitet worden. Die personenbezogenen Daten müssen gelöscht werden, um einer rechtlichen Verpflichtung aus dem Recht der Union oder eines Mitgliedstaats nachzukommen, dem der für die Verarbeitung Verantwortliche unterliegt. Die personenbezogenen Daten wurden im Zusammenhang mit dem Angebot von Diensten der Informationsgesellschaft im Sinne von Artikel 8 Absatz 1 des BIPR erhoben. Wenn einer der oben genannten Gründe zutrifft und eine betroffene Person die Löschung der von der DataFortress.cloud gespeicherten personenbezogenen Daten beantragen möchte, kann sie sich jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Ein Mitarbeiter von DataFortress.cloud muss umgehend dafür sorgen, dass dem Löschungsantrag unverzüglich entsprochen wird.</p>
+
+
+
+<p>Hat der für die Verarbeitung Verantwortliche personenbezogene Daten veröffentlicht und ist er nach Artikel 17 Absatz 1 verpflichtet, die personenbezogenen Daten zu löschen, so unternimmt der für die Verarbeitung Verantwortliche unter Berücksichtigung der verfügbaren Technologie und der Kosten der Durchführung angemessene Schritte, einschließlich technischer Maßnahmen, um andere für die Verarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren, dass die betroffene Person bei diesen für die Verarbeitung Verantwortlichen die Löschung beantragt hat, über alle Verknüpfungen zu diesen personenbezogenen Daten oder Kopien oder Vervielfältigungen dieser personenbezogenen Daten, soweit eine Verarbeitung nicht erforderlich ist. Ein Mitarbeiter der DataFortress.cloud wird in Einzelfällen die erforderlichen Maßnahmen veranlassen.</p>
+
+
+
+<p>e) Recht auf Einschränkung der Verarbeitung Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen eine Einschränkung der Verarbeitung zu erhalten, wenn einer der folgenden Punkte zutrifft:</p>
+
+
+
+<p>Die Richtigkeit der personenbezogenen Daten wird von der betroffenen Person angefochten, und zwar für einen Zeitraum, der es dem für die Verarbeitung Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen. Die Verarbeitung ist unrechtmäßig, und die betroffene Person widersetzt sich der Löschung der personenbezogenen Daten und beantragt stattdessen die Einschränkung ihrer Verwendung. Der für die Verarbeitung Verantwortliche benötigt die personenbezogenen Daten nicht mehr für die Zwecke der Verarbeitung, aber sie werden von der betroffenen Person für die Begründung, Ausübung oder Verteidigung von Rechtsansprüchen benötigt. Die betroffene Person hat gemäß Artikel 21 Absatz 1 des GDPR Einspruch gegen die Verarbeitung eingelegt, bis geprüft worden ist, ob die berechtigten Gründe des für die Verarbeitung Verantwortlichen Vorrang vor denen der betroffenen Person haben. Wenn eine der oben genannten Bedingungen erfüllt ist und eine betroffene Person die Beschränkung der Verarbeitung der von der DataFortress.cloud gespeicherten personenbezogenen Daten beantragen möchte, kann sie sich jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter der DataFortress.cloud wird die Einschränkung der Verarbeitung veranlassen.</p>
+
+
+
+<p>f) Recht auf Datenportabilität Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, die sie betreffenden personenbezogenen Daten, die einem für die Verarbeitung Verantwortlichen zur Verfügung gestellt wurden, in einem strukturierten, allgemein verwendeten und maschinenlesbaren Format zu erhalten. Sie hat das Recht, diese Daten ohne Behinderung durch den für die Verarbeitung Verantwortlichen, dem die personenbezogenen Daten zur Verfügung gestellt wurden, an einen anderen für die Verarbeitung Verantwortlichen zu übermitteln, sofern die Verarbeitung auf einer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a) des BIPR oder Artikel 9 Absatz 2 Buchstabe a) des BIPR beruht, oder auf einen Vertrag nach Artikel 6 Absatz 1 Buchstabe b des BIPR, und die Verarbeitung erfolgt mit automatisierten Mitteln, sofern die Verarbeitung nicht für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem für die Verarbeitung Verantwortlichen übertragen wurde.</p>
+
+
+
+<p>Darüber hinaus hat die betroffene Person bei der Ausübung ihres Rechts auf Datenübertragbarkeit gemäß Artikel 20 Absatz 1 des BIPR das Recht, dass personenbezogene Daten direkt von einem für die Verarbeitung Verantwortlichen an einen anderen übermittelt werden, sofern dies technisch möglich ist und die Rechte und Freiheiten anderer nicht beeinträchtigt werden.</p>
+
+
+
+<p>Um das Recht auf Datenportabilität geltend zu machen, kann sich die betroffene Person jederzeit an jeden Mitarbeiter der DataFortress.cloud wenden.</p>
+
+
+
+<p>g) Recht auf Widerspruch Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, jederzeit aus Gründen, die mit ihrer besonderen Situation zusammenhängen, der Verarbeitung sie betreffender personenbezogener Daten zu widersprechen, die sich auf Artikel 6 Absatz 1 Buchstabe e oder f des BIPR stützt. Dies gilt auch für die Profilerstellung auf der Grundlage dieser Bestimmungen.</p>
+
+
+
+<p>Die DataFortress.cloud wird im Falle eines Widerspruchs die personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende legitime Gründe für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder für die Begründung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
+
+
+
+<p>Wenn die DataFortress.cloud personenbezogene Daten für Direktmarketingzwecke verarbeitet, hat die betroffene Person jederzeit das Recht, gegen die Verarbeitung sie betreffender personenbezogener Daten für ein solches Marketing Widerspruch einzulegen. Dies gilt für das Profiling, soweit es sich auf ein solches Direktmarketing bezieht. Wenn die betroffene Person der Verarbeitung für Direktmarketingzwecke durch die DataFortress.cloud widerspricht, wird die DataFortress.cloud die personenbezogenen Daten für diese Zwecke nicht mehr verarbeiten.</p>
+
+
+
+<p>Darüber hinaus hat die betroffene Person das Recht, aus Gründen, die sich auf ihre besondere Situation beziehen, der Verarbeitung sie betreffender personenbezogener Daten durch die DataFortress.cloud für wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gemäß Artikel 89 Absatz 1 des GDPR zu widersprechen, es sei denn, die Verarbeitung ist für die Erfüllung einer Aufgabe erforderlich, die aus Gründen des öffentlichen Interesses durchgeführt wird.</p>
+
+
+
+<p>Um das Widerspruchsrecht auszuüben, kann sich die betroffene Person an jeden Mitarbeiter der DataFortress.cloud wenden. Darüber hinaus steht es der betroffenen Person frei, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft und ungeachtet der Richtlinie 2002/58/EG von ihrem Widerspruchsrecht auf automatisiertem Wege unter Verwendung technischer Spezifikationen Gebrauch zu machen.</p>
+
+
+
+<p>h) Automatisierte individuelle Entscheidungsfindung, einschließlich Profilerstellung Jede betroffene Person hat das vom europäischen Gesetzgeber gewährte Recht, nicht einer Entscheidung unterworfen zu werden, die ausschließlich auf einer automatisierten Verarbeitung, einschließlich der Erstellung von Profilen, beruht, die für sie rechtliche Folgen nach sich zieht oder sie in ähnlicher Weise erheblich beeinträchtigt, solange die Entscheidung (1) nicht für den Abschluss oder die Durchführung einer solchen Verarbeitung erforderlich ist, einen Vertrag zwischen der betroffenen Person und einem für die Verarbeitung Verantwortlichen, oder (2) der nicht durch das Recht der Union oder der Mitgliedstaaten, dem der für die Verarbeitung Verantwortliche unterliegt und das auch geeignete Maßnahmen zum Schutz der Rechte und Freiheiten und der berechtigten Interessen der betroffenen Person vorsieht, genehmigt ist, oder (3) nicht auf der ausdrücklichen Einwilligung der betroffenen Person beruht.</p>
+
+
+
+<p>Wenn die Entscheidung (1) für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und einem für die Verarbeitung Verantwortlichen erforderlich ist oder (2) auf der ausdrücklichen Einwilligung der betroffenen Person beruht, muss die DataFortress.cloud geeignete Maßnahmen zum Schutz der Rechte und Freiheiten und der berechtigten Interessen der betroffenen Person, zumindest des Rechts, ein menschliches Eingreifen seitens des für die Verarbeitung Verantwortlichen zu erwirken, seinen Standpunkt zu äußern und die Entscheidung anzufechten, durchführen.</p>
+
+
+
+<p>Wenn die betroffene Person die Rechte bezüglich der automatisierten individuellen Entscheidungsfindung wahrnehmen möchte, kann sie sich jederzeit an jeden Mitarbeiter der DataFortress.cloud wenden.</p>
+
+
+
+<p>i) Recht auf Widerruf der datenschutzrechtlichen Einwilligung Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte Recht, ihre Einwilligung zur Verarbeitung ihrer personenbezogenen Daten jederzeit zurückzuziehen.</p>
+
+
+
+<p>Wenn die betroffene Person das Recht auf Widerruf der Einwilligung ausüben möchte, kann sie sich jederzeit an einen Mitarbeiter von DataFortress.cloud wenden.</p>
+
+
+
+<ol start="12">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von Facebook Auf dieser Website hat der Controller Komponenten des Unternehmens Facebook integriert. Facebook ist ein soziales Netzwerk.</li>
+</ol>
+
+
+
+<p>Ein soziales Netzwerk ist ein Ort für soziale Treffen im Internet, eine Online-Gemeinschaft, die es den Benutzern in der Regel ermöglicht, miteinander zu kommunizieren und in einem virtuellen Raum zu interagieren. Ein soziales Netzwerk kann als Plattform für den Meinungs- und Erfahrungsaustausch dienen oder es der Internet-Community ermöglichen, persönliche oder geschäftliche Informationen zur Verfügung zu stellen. Facebook ermöglicht es den Benutzern eines sozialen Netzwerks, private Profile zu erstellen, Fotos hochzuladen und sich über Freundschaftsanfragen zu vernetzen.</p>
+
+
+
+<p>Die Betreibergesellschaft von Facebook ist Facebook, Inc., 1 Hacker Way, Menlo Park, CA 94025, Vereinigte Staaten. Wenn eine Person außerhalb der Vereinigten Staaten oder Kanadas lebt, ist der Controller die Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland.</p>
+
+
+
+<p>Bei jedem Aufruf einer der von der verantwortlichen Stelle betriebenen Einzelseiten dieses Internetauftritts, in die eine Facebook-Komponente (Facebook-Plugins) eingebunden wurde, wird der Webbrowser auf dem informationstechnischen System des Betroffenen automatisch aufgefordert, die Darstellung der entsprechenden Facebook-Komponente von Facebook über die Facebook-Komponente herunterzuladen. Eine Übersicht über alle Facebook-Plugins ist unter&nbsp;<a href="https://developers.facebook.com/docs/plugins/">https://developers.facebook.com/docs/plugins/</a>&nbsp;abrufbar. Im Zuge dieses technischen Verfahrens wird Facebook darüber informiert, welche konkreten Unterseiten unseres Internetauftritts von der betroffenen Person besucht wurden.</p>
+
+
+
+<p>Wenn die betroffene Person gleichzeitig bei Facebook eingeloggt ist, erkennt Facebook bei jedem Aufruf unserer Website durch die betroffene Person &#8211; und zwar für die gesamte Dauer ihres Aufenthalts auf unserer Internetseite -, welche konkrete Unterseite unserer Internetseite von der betroffenen Person besucht wurde. Diese Informationen werden über die Facebook-Komponente gesammelt und mit dem jeweiligen Facebook-Konto der betroffenen Person verknüpft. Wenn die betroffene Person auf einen der in unsere Internetseite integrierten Facebook-Buttons klickt, z.B. den Gefällt mir&#8220; Button, oder wenn die betroffene Person einen Kommentar abgibt, dann gleicht Facebook diese Informationen mit dem persönlichen Facebook-Benutzerkonto der betroffenen Person ab und speichert die persönlichen Daten.</p>
+
+
+
+<p>Facebook erhält über die Facebook-Komponente immer dann Informationen über einen Besuch des Betroffenen auf unserer Website, wenn der Betroffene während des Aufrufs unserer Website gleichzeitig bei Facebook eingeloggt ist. Dies geschieht unabhängig davon, ob die betroffene Person auf die Facebook-Komponente klickt oder nicht. Ist eine solche Übermittlung von Informationen an Facebook für den Betroffenen nicht erwünscht, kann er dies verhindern, indem er sich vor dem Aufruf unserer Website von seinem Facebook-Konto abmeldet.</p>
+
+
+
+<p>Auskunft über die Erhebung, Verarbeitung und Nutzung von personenbezogenen Daten durch Facebook gibt die von Facebook veröffentlichte Datenschutzrichtlinie, die unter&nbsp;<a href="https://facebook.com/about/privacy/">https://facebook.com/about/privacy/</a>&nbsp;abrufbar ist. Dort wird auch erläutert, welche Einstellungsmöglichkeiten Facebook bietet, um die Privatsphäre des Betroffenen zu schützen. Darüber hinaus werden verschiedene Einstellungsmöglichkeiten zur Verfügung gestellt, die es ermöglichen, die Datenübermittlung an Facebook zu unterbinden. Diese Anwendungen können vom Betroffenen genutzt werden, um eine Datenübermittlung an Facebook zu unterbinden.</p>
+
+
+
+<ol start="13">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von Funktionen des Amazon Partnerprogramms Auf dieser Website hat der Controller als Teilnehmer des Amazon-Partnerprogramms Amazon-Komponenten integriert. Die Amazon-Komponenten wurden von Amazon mit dem Ziel erstellt, Kunden durch Anzeigen auf verschiedenen Websites der Amazon-Gruppe, insbesondere Amazon.co.uk, Local.Amazon.co.uk, Amazon.de, BuyVIP.com, Amazon.de, Amazon.it und Amazon.es gegen Zahlung einer Provision zu vermitteln. Durch die Nutzung der Amazon-Komponenten kann der Controller Werbeeinnahmen generieren.</li>
+</ol>
+
+
+
+<p>Die Betreibergesellschaft dieser Amazonas-Komponente ist Amazon EU S.à.r.l, 5 Rue Plaetis, L-2338 Luxemburg, Luxemburg.</p>
+
+
+
+<p>Amazon setzt ein Cookie in das informationstechnische System der betroffenen Person. Die Definition von Cookies wird oben erläutert. Bei jedem einzelnen Aufruf einer der einzelnen Seiten dieser von der verantwortlichen Stelle betriebenen Internet-Website, in die eine Amazon-Komponente integriert wurde, übermittelt der Internet-Browser auf dem informationstechnischen System der betroffenen Person automatisch Daten zum Zwecke der Online-Werbung und der Abrechnung von Provisionen an Amazon über die jeweilige Amazon-Komponente. Im Zuge dieses technischen Verfahrens erhält Amazon persönliche Informationen, die dazu dienen, die Herkunft von Bestellungen bei Amazon zurückzuverfolgen und damit die Abrechnung einer Provision zu ermöglichen. Unter anderem kann Amazon verstehen, dass die betroffene Person auf einen Affiliate-Link auf unserer Website geklickt hat.</p>
+
+
+
+<p>Die betroffene Person kann, wie oben erwähnt, das Setzen von Cookies über unsere Website jederzeit durch eine entsprechende Einstellung des verwendeten Webbrowsers verhindern und somit das Setzen von Cookies dauerhaft verweigern. Eine solche Anpassung des verwendeten Internet-Browsers würde auch verhindern, dass Amazon ein Cookie auf das informationstechnische System der betroffenen Person setzt. Darüber hinaus können bereits von Amazon verwendete Cookies jederzeit über einen Webbrowser oder andere Softwareprogramme gelöscht werden.</p>
+
+
+
+<p>Weitere Informationen und die aktuellen Datenschutzbestimmungen von Amazon sind unter&nbsp;<a href="https://www.amazon.de/gp/help/customer/display.html?nodeId=3312401&amp;language=en_GB">https://www.amazon.de/gp/help/customer/display.html?nodeId=3312401&amp;language=en_GB</a>&nbsp;abrufbar.</p>
+
+
+
+<ol start="14">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von Google Analytics (mit Anonymisierungsfunktion) Auf dieser Website hat der Controller die Komponente von Google Analytics (mit der Anonymisierungsfunktion) integriert. Google Analytics ist ein Webanalysedienst. Web Analytics ist die Sammlung, Erfassung und Analyse von Daten über das Verhalten der Besucher von Websites. Ein Webanalysedienst sammelt unter anderem Daten über die Website, von der eine Person gekommen ist (der so genannte Referrer), welche Unterseiten besucht wurden oder wie oft und wie lange eine Unterseite angesehen wurde. Webanalysen werden hauptsächlich zur Optimierung einer Website und zur Durchführung einer Kosten-Nutzen-Analyse von Internet-Werbung eingesetzt.</li>
+</ol>
+
+
+
+<p>Der Betreiber der Google Analytics-Komponente ist Google Ireland Limited, Gordon House, Barrow Street, Dublin, D04 E5W5, Irland.</p>
+
+
+
+<p>Für die Webanalyse durch Google Analytics verwendet der Controller die Anwendung “_gat. _anonymizeIp”. Mit Hilfe dieser Anwendung wird die IP-Adresse des Internetanschlusses der betroffenen Person von Google gekürzt und beim Zugriff auf unsere Websites aus einem Mitgliedstaat der Europäischen Union oder einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum anonymisiert.</p>
+
+
+
+<p>Der Zweck der Google Analytics-Komponente besteht darin, den Verkehr auf unserer Website zu analysieren. Google nutzt die gesammelten Daten und Informationen u.a. zur Auswertung der Nutzung unserer Website und zur Erstellung von Online-Berichten, die die Aktivitäten auf unseren Websites aufzeigen, sowie zur Erbringung weiterer Dienstleistungen im Zusammenhang mit der Nutzung unserer Internetpräsenz für uns.</p>
+
+
+
+<p>Google Analytics platziert ein Cookie auf dem informationstechnischen System des Datensubjekts. Die Definition von Cookies wird oben erläutert. Durch das Setzen des Cookie wird Google in die Lage versetzt, die Nutzung unserer Website zu analysieren. Bei jedem Aufruf einer der einzelnen Seiten dieser Internetseite, die von der verantwortlichen Stelle betrieben wird und in die eine Google-Analytics-Komponente integriert wurde, übermittelt der Internet-Browser auf dem informationstechnischen System der betroffenen Person automatisch Daten über die Google-Analytics-Komponente zum Zwecke der Online-Werbung und der Abrechnung von Provisionen an Google. Im Verlauf dieses technischen Verfahrens erhält das Unternehmen Google Kenntnis von persönlichen Informationen, wie z.B. der IP-Adresse der betroffenen Person, die Google u.a. dazu dient, die Herkunft von Besuchern und Klicks zu verstehen und anschließend Provisionsabrechnungen zu erstellen.</p>
+
+
+
+<p>Das Cookie wird verwendet, um persönliche Informationen zu speichern, wie z. B. die Zugriffszeit, den Ort, von dem aus der Zugriff erfolgte, und die Häufigkeit der Besuche der betroffenen Person auf unserer Website. Bei jedem Besuch unserer Internetseite werden diese persönlichen Daten, einschließlich der IP-Adresse des Internetzugangs, die von der betroffenen Person verwendet wird, an Google in den Vereinigten Staaten von Amerika übermittelt. Diese personenbezogenen Daten werden von Google in den Vereinigten Staaten von Amerika gespeichert. Google kann diese im Rahmen des technischen Verfahrens erhobenen personenbezogenen Daten an Dritte weitergeben.</p>
+
+
+
+<p>Der Betroffene kann, wie oben erwähnt, das Setzen von Cookies über unsere Website jederzeit durch eine entsprechende Einstellung des verwendeten Webbrowsers verhindern und damit das Setzen von Cookies dauerhaft unterbinden. Eine solche Anpassung des verwendeten Internet-Browsers würde auch verhindern, dass Google Analytics ein Cookie auf dem informationstechnischen System der betroffenen Person setzt. Zudem können bereits von Google Analytics verwendete Cookies jederzeit über einen Webbrowser oder andere Softwareprogramme gelöscht werden.</p>
+
+
+
+<p>Zudem hat die betroffene Person die Möglichkeit, gegen eine mit der Nutzung dieser Website zusammenhängende Sammlung von Daten, die durch Google Analytics erzeugt werden, sowie gegen die Verarbeitung dieser Daten durch Google Einspruch zu erheben und diese auszuschliessen. Zu diesem Zweck muss die betroffene Person unter dem Link&nbsp;<a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>&nbsp;ein Browser-Add-on herunterladen und installieren. Dieses Browser-Add-on teilt Google Analytics über ein JavaScript mit, dass keine Daten und Informationen über die Besuche von Internetseiten an Google Analytics übermittelt werden dürfen. Die Installation der Browser-Add-ons wird von Google als Einwand betrachtet. Wird das informationstechnische System der betroffenen Person später gelöscht, formatiert oder neu installiert, muss die betroffene Person die Browser-Add-ons erneut installieren, um Google Analytics zu deaktivieren. Wenn das Browser-Add-on von der betroffenen Person oder einer anderen Person, die ihrem Zuständigkeitsbereich zuzurechnen ist, deinstalliert wurde oder deaktiviert ist, ist es möglich, die Neuinstallation oder Reaktivierung der Browser-Add-ons durchzuführen.</p>
+
+
+
+<p>Weitere Informationen und die geltenden Datenschutzbestimmungen von Google sind unter&nbsp;<a href="https://www.google.com/intl/en/policies/privacy/">https://www.google.com/intl/en/policies/privacy/</a>&nbsp;und unter&nbsp;<a href="http://www.google.com/analytics/terms/us.html">http://www.google.com/analytics/terms/us.html</a>&nbsp;abrufbar. Google Analytics wird unter dem folgenden Link&nbsp;<a href="https://www.google.com/analytics/">https://www.google.com/analytics/</a>&nbsp;näher erläutert.</p>
+
+
+
+<ol start="15">
+<li>Datenschutzbestimmungen zur Anwendung und Nutzung von Google-AdWords Auf dieser Website hat der Controller Google AdWords integriert. Google AdWords ist ein Dienst für Internetwerbung, der es dem Inserenten ermöglicht, Anzeigen in den Ergebnissen der Google-Suchmaschine und im Google-Werbenetzwerk zu schalten. Mit Google AdWords kann ein Inserent bestimmte Suchbegriffe vordefinieren, mit deren Hilfe eine Anzeige in den Suchergebnissen von Google erst dann geschaltet wird, wenn der Nutzer die Suchmaschine zum Abruf eines suchwortrelevanten Suchergebnisses nutzt. Im Google-Werbenetzwerk werden die Anzeigen unter Berücksichtigung der zuvor definierten Schlüsselwörter mit Hilfe eines automatischen Algorithmus auf relevanten Webseiten verteilt.</li>
+</ol>
+
+
+
+<p>Die Betreibergesellschaft von Google AdWords ist Google Ireland Limited, Gordon House, Barrow Street, Dublin, D04 E5W5, Irland.</p>
+
+
+
+<p>Der Zweck von Google AdWords ist die Förderung unserer Website durch die Aufnahme relevanter Werbung auf den Websites Dritter und in den Suchmaschinenergebnissen der Suchmaschine Google sowie die Einfügung von Werbung Dritter auf unserer Website.</p>
+
+
+
+<p>Wenn eine betroffene Person über eine Google-Anzeige auf unsere Website gelangt, wird über Google ein Conversion-Cookie auf dem informationstechnischen System der betroffenen Person gespeichert. Die Definition von Cookies wird oben erläutert. Ein Conversion-Cookie verliert nach 30 Tagen seine Gültigkeit und wird nicht zur Identifizierung der betroffenen Person verwendet. Wenn das Cookie nicht abgelaufen ist, wird mit dem Conversion-Cookie überprüft, ob bestimmte Unterseiten, z.B. der Warenkorb aus einem Online-Shop-System, auf unserer Website aufgerufen wurden. Durch das Conversion-Cookie können sowohl Google als auch der Controller nachvollziehen, ob eine Person, die eine AdWords-Werbung auf unserer Website erreicht hat, Verkäufe getätigt, d.h. einen Warenverkauf durchgeführt oder abgebrochen hat.</p>
+
+
+
+<p>Die durch die Verwendung des Conversion-Cookies gesammelten Daten und Informationen werden von Google verwendet, um Besuchsstatistiken für unsere Website zu erstellen. Diese Besuchsstatistiken werden verwendet, um die Gesamtzahl der Nutzer zu ermitteln, die durch AdWords-Anzeigen geschaltet wurden, um den Erfolg oder Misserfolg jeder AdWords-Anzeige zu ermitteln und unsere AdWords-Anzeigen in Zukunft zu optimieren. Weder unser Unternehmen noch andere Google AdWords-Inserenten erhalten von Google Informationen, die die betroffene Person identifizieren könnten.</p>
+
+
+
+<p>Das Conversion-Cookie speichert persönliche Informationen, z. B. die von der betroffenen Person besuchten Internetseiten. Jedes Mal, wenn wir unsere Internetseiten besuchen, werden personenbezogene Daten, einschließlich der IP-Adresse des vom Betroffenen genutzten Internetzugangs, an Google in den Vereinigten Staaten von Amerika übermittelt. Diese personenbezogenen Daten werden von Google in den Vereinigten Staaten von Amerika gespeichert. Google kann diese im Rahmen des technischen Verfahrens erhobenen personenbezogenen Daten an Dritte weitergeben.</p>
+
+
+
+<p>Der Betroffene kann jederzeit durch eine entsprechende Einstellung des verwendeten Internetbrowsers das Setzen von Cookies durch unsere Website wie oben beschrieben verhindern und damit das Setzen von Cookies dauerhaft unterbinden. Eine solche Einstellung des verwendeten Internet-Browsers würde auch verhindern, dass Google ein Conversion-Cookie auf das informationstechnische System der betroffenen Person setzt. Darüber hinaus kann ein von Google AdWords gesetztes Cookie jederzeit über den Internet-Browser oder andere Softwareprogramme gelöscht werden.</p>
+
+
+
+<p>Die betroffene Person hat die Möglichkeit, gegen die interessenbezogene Werbung von Google Einspruch zu erheben. Dazu muss die betroffene Person von jedem der verwendeten Browser aus auf den Link&nbsp;<a href="https://www.google.de/settings/ads">www.google.de/settings/ads</a>&nbsp;zugreifen und die gewünschten Einstellungen vornehmen.</p>
+
+
+
+<p>Weitere Informationen und die geltenden Datenschutzbestimmungen von Google können unter&nbsp;<a href="https://www.google.com/intl/en/policies/privacy/">https://www.google.com/intl/en/policies/privacy/</a>&nbsp;abgerufen werden.</p>
+
+
+
+<ol start="16">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von Instagram Auf dieser Website hat der Controller Komponenten des Dienstes Instagram integriert. Instagram ist ein Dienst, der als audiovisuelle Plattform qualifiziert werden kann, die es den Benutzern ermöglicht, Fotos und Videos zu teilen und diese Daten in anderen sozialen Netzwerken zu verbreiten.</li>
+</ol>
+
+
+
+<p>Die Betreibergesellschaft der von Instagram angebotenen Dienste ist Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2 Ireland.</p>
+
+
+
+<p>Bei jedem Aufruf einer der einzelnen Seiten dieser Internet-Site, die vom Betreiber betrieben wird und auf der eine Instagram-Komponente (Insta-Button) integriert wurde, wird der Internet-Browser auf dem informationstechnischen System der betroffenen Person automatisch zum Download einer Anzeige der entsprechenden Instagram-Komponente von Instagram aufgefordert. Im Verlauf dieses technischen Verfahrens erfährt Instagram, welche spezifische Unterseite unserer Website von der betroffenen Person besucht wurde.</p>
+
+
+
+<p>Wenn die betroffene Person gleichzeitig bei Instagram eingeloggt ist, erkennt Instagram bei jedem Aufruf unserer Website durch die betroffene Person &#8211; und zwar für die gesamte Dauer ihres Aufenthalts auf unserer Internetseite &#8211; welche spezifische Unterseite unserer Internetseite von der betroffenen Person besucht wurde. Diese Informationen werden durch die Instagram-Komponente gesammelt und mit dem jeweiligen Instagram-Konto der betroffenen Person verknüpft. Wenn die betroffene Person auf einen der auf unserer Internetseite integrierten Instagram-Buttons klickt, dann gleicht Instagram diese Informationen mit dem persönlichen Instagram-Benutzerkonto der betroffenen Person ab und speichert die persönlichen Daten.</p>
+
+
+
+<p>Instagram erhält über die Instagram-Komponente die Information, dass die betroffene Person unsere Website besucht hat, sofern die betroffene Person zum Zeitpunkt des Aufrufs unserer Website bei Instagram eingeloggt ist. Dies geschieht unabhängig davon, ob die Person auf die Instagram-Schaltfläche klickt oder nicht. Wenn eine solche Informationsübermittlung an Instagram für die betroffene Person nicht erwünscht ist, kann sie dies verhindern, indem sie sich vor einem Aufruf unserer Website von ihrem Instagram-Konto abmeldet.</p>
+
+
+
+<p>Weitere Informationen und die anwendbaren Datenschutzbestimmungen von Instagram können unter&nbsp;<a href="https://help.instagram.com/155833707900388">https://help.instagram.com/155833707900388</a>&nbsp;und&nbsp;<a href="https://www.instagram.com/about/legal/privacy/">https://www.instagram.com/about/legal/privacy/</a>&nbsp;abgerufen werden.</p>
+
+
+
+<ol start="17">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von LinkedIn Der Controller hat Komponenten der LinkedIn Corporation auf dieser Website integriert. LinkedIn ist ein webbasiertes soziales Netzwerk, das es Benutzern mit bestehenden Geschäftskontakten ermöglicht, sich zu verbinden und neue Geschäftskontakte zu knüpfen. Über 400 Millionen registrierte Personen in mehr als 200 Ländern nutzen LinkedIn. Damit ist LinkedIn derzeit die größte Plattform für Geschäftskontakte und eine der meistbesuchten Websites der Welt.</li>
+</ol>
+
+
+
+<p>Die Betreibergesellschaft von LinkedIn ist LinkedIn Corporation, 2029 Stierlin Court Mountain View, CA 94043, VEREINIGTE STAATEN. Für Datenschutzangelegenheiten außerhalb der VEREINIGTEN STAATEN ist LinkedIn Irland, Privacy Policy Issues, Wilton Plaza, Wilton Place, Dublin 2, Irland, zuständig.</p>
+
+
+
+<p>Bei jedem Aufruf einer der einzelnen Seiten dieser Internet-Site, die von der verantwortlichen Stelle betrieben wird und auf der eine LinkedIn-Komponente (LinkedIn-Plugin) integriert wurde, wird der Internet-Browser auf dem informationstechnischen System der betroffenen Person automatisch zum Herunterladen einer Anzeige der entsprechenden LinkedIn-Komponente von LinkedIn aufgefordert. Weitere Informationen über das LinkedIn-Plugin finden Sie unter&nbsp;<a href="https://developer.linkedin.com/plugins">https://developer.linkedin.com/plugins</a>. Im Verlauf dieses technischen Verfahrens erlangt LinkedIn Kenntnis darüber, welche spezifische Unterseite unserer Website von der betroffenen Person besucht wurde.</p>
+
+
+
+<p>Ist die betroffene Person gleichzeitig bei LinkedIn eingeloggt, erkennt LinkedIn bei jedem Aufruf unserer Website durch die betroffene Person &#8211; und zwar für die gesamte Dauer ihres Aufenthalts auf unserer Internetseite &#8211; welche spezifische Unterseite unserer Internetseite von der betroffenen Person besucht wurde. Diese Informationen werden über die Komponente LinkedIn gesammelt und mit dem jeweiligen LinkedIn-Konto der betroffenen Person verknüpft. Wenn die betroffene Person auf eine der auf unserer Internetseite integrierten LinkedIn-Schaltflächen klickt, dann ordnet LinkedIn diese Informationen dem persönlichen LinkedIn-Benutzerkonto der betroffenen Person zu und speichert die persönlichen Daten.</p>
+
+
+
+<p>LinkedIn erhält über die LinkedIn-Komponente die Information, dass die betroffene Person unsere Website besucht hat, sofern die betroffene Person zum Zeitpunkt des Aufrufs unserer Website bei LinkedIn eingeloggt ist. Dies geschieht unabhängig davon, ob die Person auf den LinkedIn-Button klickt oder nicht. Wenn eine solche Informationsübermittlung an LinkedIn für die betroffene Person nicht erwünscht ist, kann sie dies verhindern, indem sie sich vor dem Aufruf unserer Website von ihrem LinkedIn-Konto abmeldet.</p>
+
+
+
+<p>LinkedIn bietet unter&nbsp;<a href="https://www.linkedin.com/psettings/guest-controls">https://www.linkedin.com/psettings/guest-controls</a>&nbsp;die Möglichkeit, sich von E-Mail-Nachrichten, SMS-Nachrichten und gezielten Anzeigen abzumelden, sowie die Möglichkeit, Anzeigeneinstellungen zu verwalten. LinkedIn nutzt auch Partnerunternehmen wie Eire, Google Analytics, BlueKai, DoubleClick, Nielsen, Comscore, Eloqua und Lotame. Das Setzen solcher Cookies kann unter&nbsp;<a href="https://www.linkedin.com/legal/cookie-policy">https://www.linkedin.com/legal/cookie-policy</a>&nbsp;verweigert werden. Die geltenden Datenschutzbestimmungen für LinkedIn finden Sie unter&nbsp;<a href="https://www.linkedin.com/legal/privacy-policy">https://www.linkedin.com/legal/privacy-policy</a>. Die LinkedIn-Cookie-Richtlinie ist unter&nbsp;<a href="https://www.linkedin.com/legal/cookie-policy">https://www.linkedin.com/legal/cookie-policy</a>&nbsp;verfügbar.</p>
+
+
+
+<ol start="18">
+<li>Datenschutzbestimmungen über die Anwendung und Nutzung von YouTube Auf dieser Website hat der Controller Komponenten von YouTube integriert. YouTube ist ein Internet-Videoportal, das es Videoverlegern ermöglicht, Videoclips und anderen Benutzern kostenlos einzustellen, und auf dem sie diese auch kostenlos ansehen, überprüfen und kommentieren können. YouTube ermöglicht es Ihnen, alle Arten von Videos zu veröffentlichen, so dass Sie über das Internetportal sowohl auf vollständige Filme und Fernsehsendungen als auch auf Musikvideos, Trailer und von Benutzern erstellte Videos zugreifen können.</li>
+</ol>
+
+
+
+<p>Die Betreibergesellschaft von YouTube ist Google Ireland Limited, Gordon House, Barrow Street, Dublin, D04 E5W5, Irland.</p>
+
+
+
+<p>Bei jedem Aufruf einer der einzelnen Seiten dieser Internetseite, die vom Betreiber betrieben wird und auf der eine YouTube-Komponente (YouTube-Video) integriert wurde, wird der Internet-Browser auf dem informationstechnischen System der betroffenen Person automatisch aufgefordert, eine Anzeige der entsprechenden YouTube-Komponente herunterzuladen. Weitere Informationen über YouTube erhalten Sie unter&nbsp;<a href="https://www.youtube.com/yt/about/en/">https://www.youtube.com/yt/about/en/</a>. Im Verlauf dieses technischen Verfahrens erhalten YouTube und Google Kenntnis darüber, welche spezifische Unterseite unserer Website von der betroffenen Person besucht wurde.</p>
+
+
+
+<p>Wenn die betroffene Person bei YouTube angemeldet ist, erkennt YouTube bei jedem Aufruf einer Unterseite, die ein YouTube-Video enthält, welche spezifische Unterseite unserer Internetseite von der betroffenen Person besucht wurde. Diese Informationen werden von YouTube und Google erfasst und dem jeweiligen YouTube-Konto der betroffenen Person zugeordnet.</p>
+
+
+
+<p>YouTube und Google erhalten über die YouTube-Komponente die Information, dass die betroffene Person unsere Website besucht hat, wenn die betroffene Person zum Zeitpunkt des Aufrufs unserer Website bei YouTube eingeloggt ist; dies geschieht unabhängig davon, ob die Person auf ein YouTube-Video klickt oder nicht. Wenn eine solche Übermittlung dieser Informationen an YouTube und Google für die betroffene Person nicht wünschenswert ist, kann die Übermittlung verhindert werden, wenn sich die betroffene Person von ihrem eigenen YouTube-Konto abmeldet, bevor ein Aufruf unserer Website erfolgt.</p>
+
+
+
+<p>Die Datenschutzbestimmungen von YouTube, abrufbar unter&nbsp;<a href="https://www.google.com/intl/en/policies/privacy/">https://www.google.com/intl/en/policies/privacy/</a>, geben Auskunft über die Erhebung, Verarbeitung und Nutzung personenbezogener Daten durch YouTube und Google.</p>
+
+
+
+<ol start="19">
+<li>Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. a GDPR dient als Rechtsgrundlage für Verarbeitungen, für die wir die Einwilligung zu einem bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung personenbezogener Daten für die Erfüllung eines Vertrags erforderlich, dessen Vertragspartei die betroffene Person ist, wie dies beispielsweise der Fall ist, wenn die Verarbeitungen für die Lieferung von Waren oder die Erbringung einer anderen Dienstleistung erforderlich sind, stützt sich die Verarbeitung auf Art. 6 Abs. 1 lit. b GDPR. Gleiches gilt für solche Verarbeitungen, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind, beispielsweise bei Anfragen zu unseren Produkten oder Dienstleistungen. Unterliegt unser Unternehmen einer gesetzlichen Verpflichtung, durch die die Verarbeitung personenbezogener Daten erforderlich wird, etwa zur Erfüllung steuerlicher Pflichten, erfolgt die Verarbeitung aufgrund von Art. 6 Abs. 1 lit. b GDPR. 6 Abs. 1 lit. c GDPR. In seltenen Fällen kann die Verarbeitung personenbezogener Daten zur Wahrung lebenswichtiger Interessen der betroffenen Person oder einer anderen natürlichen Person erforderlich sein. Dies wäre z.B. der Fall, wenn ein Besucher in unserem Unternehmen verletzt wird und sein Name, sein Alter, seine Krankenversicherungsdaten oder andere lebenswichtige Informationen an einen Arzt, ein Krankenhaus oder einen anderen Dritten weitergegeben werden müssen. Dann würde die Verarbeitung auf der Grundlage von Art. 6(1) lit. d GDPR. Schliesslich könnten die Verarbeitungen auf Artikel 6(1) lit. f GDPR gestützt werden. Diese Rechtsgrundlage wird für Verarbeitungen herangezogen, die nicht unter einen der oben genannten Rechtsgründe fallen, wenn die Verarbeitung zur Wahrung berechtigter Interessen unseres Unternehmens oder eines Dritten erforderlich ist, es sei denn, diese Interessen werden durch die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überlagert. Solche Verarbeitungen sind insbesondere deshalb zulässig, weil sie vom europäischen Gesetzgeber ausdrücklich erwähnt worden sind. Er vertrat die Auffassung, dass ein berechtigtes Interesse angenommen werden könne, wenn die betroffene Person ein Kunde des für die Verarbeitung Verantwortlichen ist (Erwägungsgrund 47 Satz 2 GDPR).</li>
+
+
+
+<li>Die von dem für die Verarbeitung Verantwortlichen oder von einem Dritten verfolgten berechtigten Interessen Soweit die Verarbeitung personenbezogener Daten auf Artikel 6 Absatz 1 lit. f GDPR gestützt ist, besteht unser berechtigtes Interesse darin, unsere Geschäftstätigkeit zum Wohle aller unserer Mitarbeiter und Aktionäre auszuüben.</li>
+
+
+
+<li>Zeitraum, für den die persönlichen Daten gespeichert werden Das Kriterium zur Bestimmung der Aufbewahrungsdauer von Personendaten ist die jeweilige gesetzliche Aufbewahrungsfrist. Nach Ablauf dieser Frist werden die entsprechenden Daten routinemäßig gelöscht, sofern sie nicht mehr für die Vertragserfüllung oder Vertragsanbahnung erforderlich sind.</li>
+
+
+
+<li>Bereitstellung personenbezogener Daten als gesetzliche oder vertragliche Verpflichtung; Erfordernis zum Abschluss eines Vertrages; Verpflichtung des Betroffenen zur Bereitstellung der personenbezogenen Daten; mögliche Folgen bei Nichtbereitstellung dieser Daten Wir stellen klar, dass die Bereitstellung von Personendaten teilweise gesetzlich vorgeschrieben ist (z.B. steuerliche Vorschriften) oder sich auch aus vertraglichen Bestimmungen ergeben kann (z.B. Informationen über den Vertragspartner). Manchmal kann es zum Abschluss eines Vertrages notwendig sein, dass die betroffene Person uns personenbezogene Daten zur Verfügung stellt, die dann von uns verarbeitet werden müssen. Die betroffene Person ist z.B. verpflichtet, uns personenbezogene Daten zur Verfügung zu stellen, wenn unser Unternehmen mit ihr einen Vertrag abschliesst. Die Nichtbereitstellung der Personendaten hätte zur Folge, dass der Vertrag mit der betroffenen Person nicht abgeschlossen werden könnte. Bevor personenbezogene Daten von der betroffenen Person zur Verfügung gestellt werden, muss sich die betroffene Person an einen beliebigen Mitarbeiter wenden. Der Arbeitnehmer klärt mit der betroffenen Person ab, ob die Bereitstellung der Personendaten gesetzlich oder vertraglich vorgeschrieben oder für den Vertragsabschluss notwendig ist, ob eine Pflicht zur Bereitstellung der Personendaten besteht und welche Folgen die Nichtbereitstellung der Personendaten hat.</li>
+
+
+
+<li>Vorhandensein einer automatisierten Entscheidungsfindung Als verantwortungsbewusstes Unternehmen verwenden wir keine automatische Entscheidungsfindung oder Profilerstellung.</li>
+</ol>
+
+
+
+<p>Diese Datenschutzerklärung wurde durch den Privacy Policy Generator der DGD &#8211; Your External DPO erstellt, der in Zusammenarbeit mit deutschen Rechtsanwälten von WILDE BEUGER SOLMECKE, Köln, entwickelt wurde.</p>
+                    </div>
+<!-- .entry-content -->
+        </article><!-- #post-## -->
+
+		</main><!-- #main -->
+	</div>
+<!-- #primary -->
+
+		</div>
+<!-- .col-full -->
+	</div>
+<!-- #content -->
+
+			<div data-elementor-type="footer" data-elementor-id="235" class="elementor elementor-235 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<div class="elementor-section elementor-top-section elementor-element elementor-element-d2ca260 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d2ca260" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-03c0ab2" data-id="03c0ab2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-section elementor-inner-section elementor-element elementor-element-1318712 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1318712" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-c3f61ca" data-id="c3f61ca" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8141fea elementor-widget elementor-widget-smartic-site-logo" data-id="8141fea" data-element_type="widget" data-widget_type="smartic-site-logo.default">
+				<div class="elementor-widget-container">
+			        <div class="elementor-site-logo-wrapper">
+                    <div class="site-branding">
+            <a href="/" class="custom-logo-link" rel="home"><img width="401" height="268" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20401%20268'%3E%3C/svg%3E" data-src="/wp-content/uploads/2024/02/cropped-logo-privateaiserver.png" class="custom-logo lazy" alt="Private AI Server" decoding="async" data-srcset="https://private-ai-server.de/wp-content/uploads/2024/02/cropped-logo-privateaiserver.png 401w, https://private-ai-server.de/wp-content/uploads/2024/02/cropped-logo-privateaiserver-300x200.png 300w" data-sizes="(max-width: 401px) 100vw, 401px"></a>        <div class="site-branding-text">
+                            <p class="site-title"><a href="/" rel="home">Private AI Server</a></p>
+            
+                            <p class="site-description">DSGVO- und Gesetzeskonform</p>
+                    </div>
+<!-- .site-branding-text -->
+                </div>
+                </div>
+        		</div>
+				</div>
+				<div class="elementor-element elementor-element-3961d8d elementor-align-left elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3961d8d" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="tel:1800%2033355">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="smartic-icon- smartic-icon-phone-2"></i>						</span>
+										<span class="elementor-icon-list-text">+49 1601136770</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5b01df8 elementor-widget elementor-widget-text-editor" data-id="5b01df8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>aiserver@datafortress.cloud</p>
+<p>DataFortress.cloud UG, Augsburg, Deutschland</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e807487" data-id="e807487" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5e3946f elementor-widget elementor-widget-heading" data-id="5e3946f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Nützliche Links</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-319217a elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="319217a" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/about/">
+
+											<span class="elementor-icon-list-text">Über uns</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/shop">
+
+											<span class="elementor-icon-list-text">Shop</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea236e3" data-id="ea236e3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5b53539 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5b53539" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/bezahlmoeglichkeiten/">
+
+											<span class="elementor-icon-list-text">Zahlungsbedingungen</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/agb/">
+
+											<span class="elementor-icon-list-text">AGB</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/contact">
+
+											<span class="elementor-icon-list-text">Kontakt</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-046d8d2" data-id="046d8d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f25741e elementor-widget elementor-widget-heading" data-id="f25741e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bedarfskalkulator</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cb0af0a elementor-button-info elementor-widget elementor-widget-button" data-id="cb0af0a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#quiz-GrHo22">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">AI Bedarfs-Quiz</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</div>
+				<div class="elementor-element elementor-element-f93bd0e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="f93bd0e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.20.0 - 10-04-2024 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0403e39 elementor-widget elementor-widget-text-editor" data-id="0403e39" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Copyright © 2024 DataFortress.cloud UG, alle Rechte vorbehalten</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</div>
+				</div>
+		        <div class="smartic-handheld-footer-bar">
+            <ul class="columns-3">
+                                    <li class="shop">
+                        <a href="/shop/"><span class="title">Shop</span></a>                    </li>
+                                    <li class="my-account">
+                        <a href="/my-account/"><span class="title">My Account</span></a>                    </li>
+                                    <li class="search">
+                        <a><span class="title">Search</span></a>            <div class="site-search">
+                <div class="widget woocommerce widget_product_search">			<div class="ajax-search-result" style="display:none;">
+			</div>
+			<form role="search" method="get" class="woocommerce-product-search" action="https://private-ai-server.de/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-1">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-1" class="search-field" placeholder="Search products&hellip;" autocomplete="off" value="" name="s">
+	<button type="submit" value="Search">Search</button>
+	<input type="hidden" name="post_type" value="product">
+</form>
+</div>            </div>
+                                </li>
+                            </ul>
+        </div>
+        
+    </div>
+<!-- #page -->
+        
+        <div class="account-wrap" style="display: none;">
+            <div class="account-inner ">
+                        <div class="login-form-head">
+            <span class="login-form-title">Sign in</span>
+            <span class="pull-right">
+                <a class="register-link" href="/my-account/" title="Register">Create an Account</a>
+            </span>
+        </div>
+        <form class="smartic-login-form-ajax" data-toggle="validator">
+            <p>
+                <label>Username or email <span class="required">*</span></label>
+                <input name="username" type="text" required placeholder="Username">
+            </p>
+            <p>
+                <label>Password <span class="required">*</span></label>
+                <input name="password" type="password" required placeholder="Password">
+            </p>
+            <button type="submit" data-button-action class="btn btn-primary btn-block w-100 mt-1">Login</button>
+            <input type="hidden" name="action" value="smartic_login">
+            <input type="hidden" id="security-login" name="security-login" value="a4ccf2a8e7"><input type="hidden" name="_wp_http_referer" value="/datenschutzerklaerung/?simply_static_page=721">        </form>
+        <div class="login-form-bottom">
+            <a href="/my-account/lost-password/" class="lostpass-link" title="Lost your password?">Lost your password?</a>
+        </div>
+                    </div>
+        </div>
+                    <div class="smartic-mobile-nav">
+                <a href="#" class="mobile-nav-close"><i class="smartic-icon-times"></i></a>
+                        <nav class="mobile-navigation" aria-label="Mobile Navigation">
+            <div class="handheld-navigation"><ul id="menu-main-menu-1" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25964"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25965"><a href="/shop/">Shop</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25966"><a href="/about/">Über uns</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26161">
+<a href="/case-studies/">Case Studies</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26162"><a href="/case-studies/case-study-gpu-ai-server-im-openshift-cluster-einer-grossen-deutschen-bank/">Bank: Physische AI Server im OpenShift Cluster</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26183"><a href="/case-studies/klinik-automatisch-pseudonymisierende-datenbank/">Klinik: Automatisch pseudonymisierende Datenbank</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26184"><a href="/case-studies/bank-physische-ai-server-im-openshift-cluster/">Social Media Agentur: Private AI Copilot mit kundenspezifischem Wissen</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25968"><a href="/contact/">Kontakt</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-25969">
+<a href="/impressum/">Infos</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26163"><a href="/my-account/">My account</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25970"><a href="/impressum/">Impressum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25972"><a href="/agb/">AGB</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-25910 current_page_item menu-item-25973"><a rel="privacy-policy" href="/datenschutzerklaerung/" aria-current="page">Datenschutzerklärung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25974"><a href="/widerrufsbelehrung/">Widerrufsbelehrung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25975"><a href="/versandarten/">Versandarten</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25977"><a href="/bezahlmoeglichkeiten/">Zahlungsarten</a></li>
+</ul>
+</li>
+</ul></div>        </nav>
+                    </div>
+            <div class="smartic-overlay"></div>
+                    <a href="#" class="scrollup"><i class="smartic-icon-chevron-up"></i></a>
+		<script>window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';</script>
+		
+<!--Start of Tawk.to Script (0.7.2)-->
+<script id="tawk-script" type="text/javascript">var Tawk_API = Tawk_API || {};
+var Tawk_LoadStart=new Date();
+(function(){
+	var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+	s1.async = true;
+	s1.src = 'https://embed.tawk.to/65d496198d261e1b5f62b4b1/1hn36kl69';
+	s1.charset = 'UTF-8';
+	s1.setAttribute( 'crossorigin','*' );
+	s0.parentNode.insertBefore( s1, s0 );
+})();</script>
+<!--End of Tawk.to Script (0.7.2)-->
+        <script type="text/html" id="tmpl-ajax-live-search-template">
+        <div class="product-item-search">
+            <# if(data.url){ #>
+            <a class="product-link" href="{{{data.url}}}" title="{{{data.title}}}">
+            <# } #>
+                <# if(data.img){#>
+                <img src="{{{data.img}}}" alt="{{{data.title}}}">
+                 <# } #>
+                <div class="product-content">
+                <h3 class="product-title">{{{data.title}}}</h3>
+                <# if(data.price){ #>
+                {{{data.price}}}
+                 <# } #>
+                </div>
+                <# if(data.url){ #>
+            </a>
+            <# } #>
+        </div>
+        </script><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home Page","@id":""}},{"@type":"ListItem","position":2,"item":{"name":"Datenschutzerklärung","@id":"\/datenschutzerklaerung\/"}}]}</script>	<script type="text/javascript">(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();</script>
+	            <div class="site-header-cart-side">
+                <div class="cart-side-heading">
+                    <span class="cart-side-title">Shopping cart</span>
+                    <a href="#" class="close-cart-side">close</a>
+</div>
+                <div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div>            </div>
+            <div class="cart-side-overlay"></div>
+            <link rel="stylesheet" id="woocommerce-currency-switcher-css" href="/wp-content/plugins/woocommerce-currency-switcher/css/front.css?ver=1.4.1.8" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-800-css" href="/wp-content/uploads/elementor/css/post-800.css?ver=1708981312" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.20" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
+<script type="text/javascript" id="product-recommendation-quiz-for-ecommerce-js-extra">
+/* <![CDATA[ */
+var js_vars = {"shop":"private-ai-server.de","platform":"woocommerce","channel":"wordpress","plugin_version":"2.2.6","woo_version":"8.7.0","wp_version":"6.5.2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://admin.revenuehunt.com/embed.js?shop=private-ai-server.de&amp;ver=2.2.6" id="product-recommendation-quiz-for-ecommerce-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.20" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.20" defer async id="revmin-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.7.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.7.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/wp-util.min.js?ver=f92ea97e3bb188090c06382645cf1744" id="wp-util-js"></script>
+<script type="text/javascript" id="wp-api-request-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"root":"\/wp-json\/","nonce":"727234fbef","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/api-request.min.js?ver=f92ea97e3bb188090c06382645cf1744" id="wp-api-request-js"></script>
+<script type="text/javascript" src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/dist/url.min.js?ver=421139b01f33e5b327d8" id="wp-url-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2024-04-09 17:26:57+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"You are probably offline.":["Sie sind wahrscheinlich offline."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["Das Hochladen der Mediendatei ist fehlgeschlagen. Wenn es sich um ein Foto oder ein großes Bild handelt, verkleinern Sie es bitte und versuchen Sie es erneut."],"The response is not a valid JSON response.":["Die Antwort ist keine gültige JSON-Antwort."],"An unknown error occurred.":["Ein unbekannter Fehler ist aufgetreten."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-includes/js/dist/api-fetch.min.js?ver=4c185334c5ec26e149cc" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+/* <![CDATA[ */
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://private-ai-server.de/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "727234fbef" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://private-ai-server.de/wp-admin/admin-ajax.php?action=rest-nonce";
+/* ]]> */
+</script>
+<script type="text/javascript" id="woo-variation-swatches-js-extra">
+/* <![CDATA[ */
+var woo_variation_swatches_options = {"show_variation_label":"1","clear_on_reselect":"","variation_label_separator":":","is_mobile":"","show_variation_stock":"","stock_label_threshold":"5","cart_redirect_after_add":"yes","enable_ajax_add_to_cart":"yes","cart_url":"\/cart\/","is_cart":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1708340824" id="woo-variation-swatches-js"></script>
+<script type="text/javascript" id="smartic-theme-js-extra">
+/* <![CDATA[ */
+var smarticAjax = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/frontend/main.js?ver=2.1.6" id="smartic-theme-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/skip-link-focus-fix.min.js?ver=20130115" id="smartic-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/frontend/text-editor.js?ver=2.1.6" id="smartic-text-editor-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/frontend/search-popup.js?ver=2.1.6" id="smartic-search-popup-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/frontend/nav-mobile.js?ver=2.1.6" id="smartic-nav-mobile-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/frontend/login.js?ver=2.1.6" id="smartic-ajax-login-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/woocommerce/header-cart.min.js?ver=2.1.6" id="smartic-header-cart-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/footer.min.js?ver=2.1.6" id="smartic-handheld-footer-bar-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/tooltipster.bundle.js?ver=2.1.6" id="tooltipster-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/woocommerce/main.min.js?ver=2.1.6" id="smartic-products-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/woocommerce/quantity.min.js?ver=2.1.6" id="smartic-input-quantity-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/woocommerce/cart-canvas.min.js?ver=2.1.6" id="smartic-cart-canvas-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=8.7.0" id="wc-jquery-ui-touchpunch-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-currency-switcher/js/price-slider_33.js?ver=1.4.1.8" id="wc-price-slider_33-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-currency-switcher/js/real-active-filters.js?ver=1.4.1.8" id="woocs-real-active-filters-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-currency-switcher/js/real-price-filter-frontend.js?ver=1.4.1.8" id="woocs-price-filter-frontend-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-currency-switcher/js/jquery.ddslick.min.js?ver=1.4.1.8" id="jquery.ddslick.min-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce-currency-switcher/js/front.js?ver=1.4.1.8" id="woocommerce-currency-switcher-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.20.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.20.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild herunterladen","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zurück","next":"Weiter","close":"Schließen","a11yCarouselWrapperAriaLabel":"Karussell | horizontaler Bildlauf: Pfeil links & rechts","a11yCarouselPrevSlideMessage":"Vorherige Folie","a11yCarouselNextSlideMessage":"Nächste Folie","a11yCarouselFirstSlideMessage":"Dies ist die erste Folie","a11yCarouselLastSlideMessage":"Dies ist die letzte Folie","a11yCarouselPaginationBulletMessage":"Zu Folie"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.20.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"theme_builder_v2":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":25910,"title":"Datenschutzerkl%C3%A4rung%20%E2%80%93%20Private%20AI%20Server","excerpt":"","featuredImage":false}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.20.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/elementor/header-group.js?ver=2.1.6" id="smartic-elementor-header-group-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/vendor/slick.min.js?ver=2.1.6" id="slick-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.19.0" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"ea0d744128","urls":{"assets":"\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"\/cart\/","checkout_page_url":"\/checkout\/","fragments_nonce":"187987605d"}},"facebook_sdk":{"lang":"de_DE_formal","app_id":""},"lottie":{"defaultAnimationUrl":"\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.19.0" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.19.0" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" id="wpforms-elementor-js-extra">
+/* <![CDATA[ */
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4" id="wpforms-elementor-js"></script>
+<script type="text/javascript" src="/wp-content/themes/smartic/assets/js/elementor-frontend.js?ver=2.1.6" id="smartic-elementor-frontend-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_3b8ac4c69d577c75ab4836c6c61b0966","fragment_name":"wc_fragments_3b8ac4c69d577c75ab4836c6c61b0966","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.7.0" id="wc-cart-fragments-js" defer data-wp-strategy="defer"></script>
+
+<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async src="/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+</body>
+
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading
+
+Served from: private-ai-server.de @ 2024-04-12 14:10:24 by W3 Total Cache
+-->
+</html>

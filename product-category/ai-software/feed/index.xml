@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AI Software &#8211; Private AI Server</title>
+	<atom:link href="/product-category/ai-software/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DSGVO- und Gesetzeskonform</description>
+	<lastBuildDate>Sat, 17 Feb 2024 09:27:45 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Rechtskonforme Datenbank (relational, Vektor, unstrukturiert)</title>
+		<link>/product/rechtskonforme-datenbank-relational-vektor-unstrukturiert/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=rechtskonforme-datenbank-relational-vektor-unstrukturiert</link>
+					<comments>/product/rechtskonforme-datenbank-relational-vektor-unstrukturiert/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Sat, 17 Feb 2024 09:26:31 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=26043</guid>
+
+					<description><![CDATA[Erleben Sie mit unserer KI-gestützten Datenbanklösung den ultimativen Schutz sensibler Daten durch intelligente Pseudonymisierungs- und Anonymisierungsfunktionen – Datenschutzkonformität und Sicherheit, ohne Kompromisse. Setzen Sie ein starkes Zeichen für Vertrauen und Innovation in Ihrer Datenverwaltung, gehostet auf sicheren Servern in Deutschland.]]></description>
+										<content:encoded><![CDATA[<h2>Datenschutz neu definiert: Ihre DSGVO-konforme Datenbanklösung</h2>
+<p>Entdecken Sie die nächste Generation der Datenspeicherung mit unserer DSGVO-konformen Datenbank – eine zukunftsweisende Plattform, die Ihnen die Freiheit gibt, aus einer Vielfalt von Datenformaten zu wählen, einschließlich relationaler Daten, Vektor-Daten für KI-Anwendungen und unstrukturierten Daten. Entwickelt, um vollständig den rechtlichen Anforderungen und der DSGVO zu entsprechen, hebt sich unsere Datenbank durch eine besondere Funktion ab: die Möglichkeit zur Pseudonymisierung und Anonymisierung sensibler Daten, gehostet auf sicheren Servern in Deutschland.</p>
+<h3>Hauptmerkmale unserer KI Datenbank:</h3>
+<ul>
+<li><strong>Datenvielfalt mit Rechtskonformität</strong>: Wählen Sie aus einem breiten Spektrum an Datenformaten, ohne Kompromisse bei der Einhaltung der Datenschutzgesetze zu machen. Unsere Datenbank geht über die gesetzlichen Anforderungen hinaus und setzt neue Maßstäbe in Sachen Datenschutz.</li>
+<li><strong>Pseudonymisierung und Anonymisierung</strong>: Bieten Sie einen zusätzlichen Schutz für sensible Daten durch unsere fortschrittlichen Funktionen zur Pseudonymisierung und Anonymisierung. Diese Funktionen sind besonders relevant für das Gesundheitswesen und den Finanzsektor, wo der Datenschutz von größter Bedeutung ist.</li>
+</ul>
+<h3>Warum Pseudonymisierung und Anonymisierung entscheidend sind:</h3>
+<p>In der EU und speziell in Deutschland sind Pseudonymisierung und Anonymisierung zentrale Elemente, um den Datenschutz und die Privatsphäre zu stärken. Diese Techniken ermöglichen die sichere Nutzung von Daten für Forschung, Analyse und Innovation, ohne die Identität der betroffenen Personen zu kompromittieren. Sie fördern das Vertrauen der Nutzer und erfüllen die strengen Anforderungen der Datenschutzgesetze.</p>
+<p>Indem Sie sich für unsere DSGVO-konforme Datenbank entscheiden, wählen Sie nicht nur eine flexible und vielseitige Datenverwaltungslösung, sondern setzen auch ein starkes Zeichen für den Schutz der Privatsphäre und die strikte Einhaltung der gesetzlichen Vorschriften. Treten Sie ein in die Zukunft der sicheren und rechtskonformen Datenspeicherung – für ein datengesteuertes Morgen, das auf dem Fundament des Vertrauens steht. ????????<img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2728.png" alt="✨" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h3>Innovative Pseudonymisierungs- und Anonymisierungsfunktionen: Schutz sensibler Daten durch intelligente KI-Unterstützung</h3>
+<p>Unsere fortschrittliche Datenbanklösung setzt neue Maßstäbe im Datenschutz durch die Integration von KI-gestützten Pseudonymisierungs- und Anonymisierungsfunktionen. Diese Funktionen sind speziell darauf ausgerichtet, sensible Daten zu identifizieren und den Schutz dieser Informationen zu maximieren, indem sie entweder pseudonymisiert oder anonymisiert werden. Dieser Prozess beginnt bereits bei der Erstellung von Tabellen und Datenstrukturen, wo unsere KI aktiv Vorschläge unterbreitet, welche Daten aufgrund ihrer Sensibilität automatisch behandelt werden sollten.</p>
+<p><strong>Automatische Erkennung und Vorschläge</strong>: Beim Anlegen neuer Tabellen und Datenstrukturen analysiert unsere KI die Inhalte und schlägt vor, bestimmte Spalten, die sensible Daten enthalten könnten, automatisch zu pseudonymisieren oder zu anonymisieren. Diese proaktive Herangehensweise gewährleistet, dass Datenschutzbestimmungen von Anfang an berücksichtigt und eingehalten werden.</p>
+<p><strong>Manuelle Tagging-Option</strong>: Neben der automatischen Erkennung durch unsere KI bieten wir auch die Flexibilität, manuell zu bestimmen, welche Spalten pseudonymisiert oder anonymisiert werden sollen. Diese Option ermöglicht es den Nutzern, spezifische Anforderungen und Richtlinien ihres Unternehmens oder ihrer Branche anzupassen und sicherzustellen, dass alle relevanten Daten angemessen geschützt werden.</p>
+<h4>Vorteile der Pseudonymisierung und Anonymisierung:</h4>
+<p>&#8211; <strong>Datenschutzkonformität</strong>: Durch die Anwendung dieser Techniken können Unternehmen sicherstellen, dass sie die strengen Anforderungen der DSGVO und anderer Datenschutzgesetze erfüllen.<br />
+&#8211; <strong>Datensicherheit</strong>: Sensible Informationen werden geschützt, indem ihre Identifizierbarkeit reduziert wird, was das Risiko von Datenschutzverletzungen minimiert.<br />
+&#8211; <strong>Nutzervertrauen</strong>: Der Schutz der Privatsphäre stärkt das Vertrauen der Nutzer in die Datenverarbeitungspraktiken eines Unternehmens.<br />
+&#8211; <strong>Forschung und Analyse</strong>: Pseudonymisierte oder anonymisierte Daten können sicher für Forschungszwecke verwendet werden, ohne die Privatsphäre der betroffenen Personen zu gefährden.</p>
+<p>Unsere KI-gestützte Pseudonymisierungs- und Anonymisierungsfunktion stellt einen bedeutenden Fortschritt im Bereich des Datenschutzes dar. Sie ermöglicht es Unternehmen, sensible Daten effektiv zu schützen und gleichzeitig die Einhaltung der gesetzlichen Vorschriften zu gewährleisten. Erleben Sie den nächsten Schritt in der sicheren und konformen Datenspeicherung mit unserer innovativen Datenbanklösung.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/rechtskonforme-datenbank-relational-vektor-unstrukturiert/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Rechtskonforme AI API</title>
+		<link>/product/rechtskonforme-ai-api/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=rechtskonforme-ai-api</link>
+					<comments>/product/rechtskonforme-ai-api/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Sat, 17 Feb 2024 09:01:58 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=26038</guid>
+
+					<description><![CDATA[Revolutionäre KI-Power, gehostet in Deutschland für maximale DSGVO/Datenschutzkonformität. OpenAI konform, Prepaid-System.]]></description>
+										<content:encoded><![CDATA[<h2><strong>Unser gehosteter API-Dienst: Deutsches Hosting, DSGVO konform, Datenschutz-Compliant</strong></h2>
+<h2><span style="font-size: 16px;">Wir freuen uns, unseren gehosteten API-Dienst vorzustellen, der Benutzern ein nahtloses Erlebnis bietet, ähnlich wie bei der OpenAI API, jedoch mit einem entscheidenden Unterschied – unser Service ist in Deutschland gehostet und entspricht strikt der Datenschutz-Grundverordnung (DSGVO) und den höchsten Standards für Datenschutz.</span></h2>
+<p><strong>Hauptmerkmale:</strong></p>
+<ol>
+<li><strong>Infrastruktur in Deutschland:</strong> Unser API-Dienst läuft auf Servern, die in Deutschland gehostet sind. Dies gewährleistet die Datenhoheit und die Einhaltung der strengen DSGVO-Vorschriften. Ihre Daten verbleiben in der sicheren Umgebung der deutschen Infrastruktur, was zusätzliche Privatsphäre und Einhaltung bedeutet.</li>
+<li><strong>OpenAI-ähnliche Erfahrung:</strong> Genießen Sie die Einfachheit und Flexibilität der Nutzung unseres API-Dienstes ähnlich wie bei anderen beliebten Diensten. Mit der zusätzlichen Sicherheit der strengen Datenschutzstandards Deutschlands können Sie leistungsstarke KI-Fähigkeiten nutzen.</li>
+<li><strong>Konforme Modelle:</strong> Unsere Modelle sind sorgfältig entwickelt, um mit DSGVO und anderen Datenschutzstandards in Einklang zu stehen. Vertrauen Sie darauf, dass jede Inferenz, jede Interaktion mit dem API mit einem festen Engagement für Datenschutz und Compliance durchgeführt wird.</li>
+<li><strong>Vielseitigkeit für verschiedene Anwendungsfälle:</strong> Ob Sie im Finanzwesen, im Gesundheitswesen oder in einer anderen Branche mit hohen Anforderungen an den Datenschutz tätig sind – unser gehosteter API-Dienst ist vielseitig genug, um eine Vielzahl von Anwendungsfällen zu unterstützen. Nutzen Sie die Kraft der KI, ohne bei der Sicherheit Kompromisse einzugehen.</li>
+<li><strong>Entwicklerfreundliche Integration:</strong> Integrieren Sie unseren API-Dienst nahtlos in Ihre Anwendungen, Plattformen oder Arbeitsabläufe mit unserem entwicklerfreundlichen Ansatz. Eine robuste Dokumentation und Unterstützung gewährleisten einen reibungslosen Integrationsprozess für Entwickler.</li>
+</ol>
+<p>Mit der Auswahl unseres gehosteten API-Dienstes greifen Sie nicht nur auf fortschrittliche KI-Fähigkeiten zu; Sie entscheiden sich für eine Lösung, die Datenschutz, Compliance und die Zuverlässigkeit deutscher Hosting-Infrastruktur priorisiert. Revolutionieren Sie Ihre KI-gesteuerten Anwendungen mit Vertrauen – erleben Sie das nächste Level der Präzision mit unserem Gehosteten API-Dienst. ????????????????</p>
+<h3>Einfache Preise nach Prepaid-System</h3>
+<p>Das Pricing ist ähnlich wie bei Handy-Karten. Man &#8222;lädt&#8220; den Account auf, und kann dann die Credits verbrauchen.<br />
+Unser API Server läuft auf einem geteilten Server, wenn Sie besonders hohe Hosting-Anforderungen an geteiltes Hosting haben (z.B. im Gesundheits- und Finanzsektor), benötigen Sie eine dedizierte Server Instanz. Diese bieten wir als <a href="/product/ai-server-physisch/">AI Server (physisch)</a> und Cloud Server mit Hosting in Deutschland an.</p>
+<p>Die Preise für unsere geteilte API betragen ähnlich bekannten Tools nach Modell:</p>
+<ul>
+<li>&#8222;speed-api&#8220;: ca. in der Performance vergleichbar zur Leistung von 80% OpenAI&#8217;s gpt3.5
+<ul>
+<li>0.01€/1k prompt tokens. 0.03€/1k sample tokens.</li>
+</ul>
+</li>
+<li>&#8222;quality-api&#8220;: ca. in der Performance zwischen gpt3.5 und gpt4
+<ul>
+<li>0.05€/1k prompt tokens. 0.15€/1k sample tokens.</li>
+</ul>
+</li>
+</ul>
+<p>Bei größeren Verbrauchsmengen bieten wir auch <a href="/contact-1/">spezielle Volumenpreise an, kontaktieren Sie uns hierfür.</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/rechtskonforme-ai-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Software &#8222;Private AI Pilot&#8220;</title>
+		<link>/product/software-private-ai-pilot/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=software-private-ai-pilot</link>
+					<comments>/product/software-private-ai-pilot/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Fri, 16 Feb 2024 08:09:51 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=25946</guid>
+
+					<description><![CDATA[Private AI Pilot: Ihre Brücke zur KI-Zukunft Mit unserer innovativen Software &#8222;Private AI Pilot&#8220; haben wir die Nutzung von Künstlicher Intelligenz (KI) so einfach wie nie zuvor gemacht. Diese fortschrittliche Plattform bietet nicht nur einen nahtlosen Betrieb, sondern auch eine Fülle von Funktionen, die Ihr Unternehmen auf die nächste Stufe heben. Private AI Pilot ist [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="flex-shrink-0 flex flex-col relative items-end">
+<div class="pt-0.5">
+<div class="gizmo-shadow-stroke flex h-6 w-6 items-center justify-center overflow-hidden rounded-full">
+<h2 class="relative p-1 rounded-sm h-9 w-9 text-white flex items-center justify-center"><strong>Private AI Pilot: Ihre Brücke zur KI-Zukunft</strong></h2>
+<div data-darkreader-inline-bgcolor=""></div>
+</div>
+</div>
+</div>
+<div class="relative flex w-full flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex flex-grow flex-col max-w-full">
+<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="b6f6efb0-fb70-4cba-b585-7aab237b3c4a">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>Mit unserer innovativen Software &#8222;Private AI Pilot&#8220; haben wir die Nutzung von Künstlicher Intelligenz (KI) so einfach wie nie zuvor gemacht. Diese fortschrittliche Plattform bietet nicht nur einen nahtlosen Betrieb, sondern auch eine Fülle von Funktionen, die Ihr Unternehmen auf die nächste Stufe heben.</p>
+<p><strong>Private AI Pilot ist standardmäßig auf unseren <a href="/product/ai-server-physisch/">On-Premise</a> und <a href="/product/cloud-ai-server-hosting-in-deutschland/">Cloud Servern</a> installiert!</strong></p>
+<div style="width: 980px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-25946-1" width="980" height="551" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4?_=1" /><a href="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4">/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4</a></video></div>
+<h3><strong>Plug-and-Play-Integration:</strong></h3>
+<p>Unsere Software kümmert sich um alle technischen Details, damit Sie sich darauf konzentrieren können, KI in Ihrem Unternehmen zu nutzen. Alle GPU-Treiber und notwendigen Komponenten sind bereits installiert. Egal, ob Sie sich für einen physischen Server oder eine Cloud-Lösung entscheiden &#8211; &#8222;Private AI Pilot&#8220; ist ein echtes Plug-and-Play-Erlebnis.</p>
+<h3><strong>Einfache GUI für KI-Modelle:</strong></h3>
+<p>Die intuitive grafische Benutzeroberfläche (GUI) erlaubt es Ihnen, KI-Modelle ohne technische Hürden zu installieren. Vorinstallierte Modelle, optimiert für die spezifischen Serverkonfigurationen, stehen zur Auswahl. Die GUI ist so gestaltet, dass Sie KI-Modelle nach Bedarf anpassen und erweitern können, ohne aufwendige Schulungen oder Fachkenntnisse.</p>
+<h3><strong>Sichere Konversationen wie mit ChatGPT:</strong></h3>
+<p>Mit &#8222;Private AI Pilot&#8220; können Sie mit den KI-Modellen in der GUI interagieren, als würden Sie mit ChatGPT sprechen. Der entscheidende Unterschied: Alle Gespräche bleiben sicher in Ihrer lokalen Infrastruktur. Keine Sorgen mehr darüber, dass sensible Daten im Internet landen könnten.</p>
+<h3><strong>Firmenspezifisches Training:</strong></h3>
+<p>Ein herausragendes Merkmal von &#8222;Private AI Pilot&#8220; ist die Möglichkeit, die KI-Modelle auf die spezifischen Bedürfnisse Ihrer Firma zu trainieren. Dies ermöglicht es den Modellen, ein tiefgehendes Verständnis für Ihr Unternehmen zu entwickeln. Jeder Mitarbeiter kann auf denselben Wissensstand zugreifen und gezielte Fragen stellen, was gegenüber generellen KI-Modellen einen erheblichen Vorteil darstellt.</p>
+<h3><strong>API-Zugriff für Entwickler:</strong></h3>
+<p>&#8222;Private AI Pilot&#8220; bietet eine RESTful API über Swagger, damit Entwickler nahtlos auf die KI-Modelle zugreifen und diese in eigene Anwendungen integrieren können. Diese Flexibilität ermöglicht es, die KI in unterschiedlichste Geschäftsbereiche einzubinden.</p>
+<h3><strong>Sofortige Erreichbarkeit via IP:</strong></h3>
+<p>Egal ob physischer Server oder Cloud-basierte Lösung – sobald Sie den Server einstecken, ist er sofort über die IP-Adresse erreichbar. Keine zeitraubenden Konfigurationen, keine Verzögerungen – starten Sie direkt in die Welt der Künstlichen Intelligenz.</p>
+<p>&#8222;Private AI Pilot&#8220; ist nicht nur eine Software, sondern Ihr Schlüssel zu einer effizienten, sicheren und maßgeschneiderten KI-Integration. Entdecken Sie die Zukunft der KI &#8211; heute! ????</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/software-private-ai-pilot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading (feed)
+
+Served from: private-ai-server.de @ 2024-04-12 14:12:09 by W3 Total Cache
+-->

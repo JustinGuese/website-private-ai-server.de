@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Cloud &#8211; Private AI Server</title>
+	<atom:link href="/product-category/cloud/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DSGVO- und Gesetzeskonform</description>
+	<lastBuildDate>Sat, 17 Feb 2024 09:04:49 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Rechtskonforme AI API</title>
+		<link>/product/rechtskonforme-ai-api/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=rechtskonforme-ai-api</link>
+					<comments>/product/rechtskonforme-ai-api/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Sat, 17 Feb 2024 09:01:58 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=26038</guid>
+
+					<description><![CDATA[Revolutionäre KI-Power, gehostet in Deutschland für maximale DSGVO/Datenschutzkonformität. OpenAI konform, Prepaid-System.]]></description>
+										<content:encoded><![CDATA[<h2><strong>Unser gehosteter API-Dienst: Deutsches Hosting, DSGVO konform, Datenschutz-Compliant</strong></h2>
+<h2><span style="font-size: 16px;">Wir freuen uns, unseren gehosteten API-Dienst vorzustellen, der Benutzern ein nahtloses Erlebnis bietet, ähnlich wie bei der OpenAI API, jedoch mit einem entscheidenden Unterschied – unser Service ist in Deutschland gehostet und entspricht strikt der Datenschutz-Grundverordnung (DSGVO) und den höchsten Standards für Datenschutz.</span></h2>
+<p><strong>Hauptmerkmale:</strong></p>
+<ol>
+<li><strong>Infrastruktur in Deutschland:</strong> Unser API-Dienst läuft auf Servern, die in Deutschland gehostet sind. Dies gewährleistet die Datenhoheit und die Einhaltung der strengen DSGVO-Vorschriften. Ihre Daten verbleiben in der sicheren Umgebung der deutschen Infrastruktur, was zusätzliche Privatsphäre und Einhaltung bedeutet.</li>
+<li><strong>OpenAI-ähnliche Erfahrung:</strong> Genießen Sie die Einfachheit und Flexibilität der Nutzung unseres API-Dienstes ähnlich wie bei anderen beliebten Diensten. Mit der zusätzlichen Sicherheit der strengen Datenschutzstandards Deutschlands können Sie leistungsstarke KI-Fähigkeiten nutzen.</li>
+<li><strong>Konforme Modelle:</strong> Unsere Modelle sind sorgfältig entwickelt, um mit DSGVO und anderen Datenschutzstandards in Einklang zu stehen. Vertrauen Sie darauf, dass jede Inferenz, jede Interaktion mit dem API mit einem festen Engagement für Datenschutz und Compliance durchgeführt wird.</li>
+<li><strong>Vielseitigkeit für verschiedene Anwendungsfälle:</strong> Ob Sie im Finanzwesen, im Gesundheitswesen oder in einer anderen Branche mit hohen Anforderungen an den Datenschutz tätig sind – unser gehosteter API-Dienst ist vielseitig genug, um eine Vielzahl von Anwendungsfällen zu unterstützen. Nutzen Sie die Kraft der KI, ohne bei der Sicherheit Kompromisse einzugehen.</li>
+<li><strong>Entwicklerfreundliche Integration:</strong> Integrieren Sie unseren API-Dienst nahtlos in Ihre Anwendungen, Plattformen oder Arbeitsabläufe mit unserem entwicklerfreundlichen Ansatz. Eine robuste Dokumentation und Unterstützung gewährleisten einen reibungslosen Integrationsprozess für Entwickler.</li>
+</ol>
+<p>Mit der Auswahl unseres gehosteten API-Dienstes greifen Sie nicht nur auf fortschrittliche KI-Fähigkeiten zu; Sie entscheiden sich für eine Lösung, die Datenschutz, Compliance und die Zuverlässigkeit deutscher Hosting-Infrastruktur priorisiert. Revolutionieren Sie Ihre KI-gesteuerten Anwendungen mit Vertrauen – erleben Sie das nächste Level der Präzision mit unserem Gehosteten API-Dienst. ????????????????</p>
+<h3>Einfache Preise nach Prepaid-System</h3>
+<p>Das Pricing ist ähnlich wie bei Handy-Karten. Man &#8222;lädt&#8220; den Account auf, und kann dann die Credits verbrauchen.<br />
+Unser API Server läuft auf einem geteilten Server, wenn Sie besonders hohe Hosting-Anforderungen an geteiltes Hosting haben (z.B. im Gesundheits- und Finanzsektor), benötigen Sie eine dedizierte Server Instanz. Diese bieten wir als <a href="/product/ai-server-physisch/">AI Server (physisch)</a> und Cloud Server mit Hosting in Deutschland an.</p>
+<p>Die Preise für unsere geteilte API betragen ähnlich bekannten Tools nach Modell:</p>
+<ul>
+<li>&#8222;speed-api&#8220;: ca. in der Performance vergleichbar zur Leistung von 80% OpenAI&#8217;s gpt3.5
+<ul>
+<li>0.01€/1k prompt tokens. 0.03€/1k sample tokens.</li>
+</ul>
+</li>
+<li>&#8222;quality-api&#8220;: ca. in der Performance zwischen gpt3.5 und gpt4
+<ul>
+<li>0.05€/1k prompt tokens. 0.15€/1k sample tokens.</li>
+</ul>
+</li>
+</ul>
+<p>Bei größeren Verbrauchsmengen bieten wir auch <a href="/contact-1/">spezielle Volumenpreise an, kontaktieren Sie uns hierfür.</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/rechtskonforme-ai-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cloud AI Server (Hosting in Deutschland)</title>
+		<link>/product/cloud-ai-server-hosting-in-deutschland/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=cloud-ai-server-hosting-in-deutschland</link>
+					<comments>/product/cloud-ai-server-hosting-in-deutschland/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Thu, 15 Feb 2024 20:57:02 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=25932</guid>
+
+					<description><![CDATA[Cloud-Server für AI mit deutschem Hosting – Sicherheit und Komfort vereint Unsere Self-Hosting-Server sind Ihnen zu aufwendig? Dann übernehmen wir mit unseren AI Servern DE für Sie das Hosting in Deutschland, bei einer deutschen Firma, inklusive aller Compliance, DSGVO und anderen Sicherheitsanforderungen. Für maximale Flexibilität bieten wir dasselbe erstklassige KI-Erlebnis auch in der Cloud an [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2><strong>Cloud-Server für AI mit deutschem Hosting – Sicherheit und Komfort vereint</strong></h2>
+<p>Unsere <a href="/product/ai-server-physisch/">Self-Hosting-Server</a> sind Ihnen zu aufwendig? Dann übernehmen wir mit unseren <a href="/product/cloud-ai-server-hosting-in-deutschland/">AI Servern DE</a> für Sie das Hosting in Deutschland, bei einer deutschen Firma, inklusive aller Compliance, DSGVO und anderen Sicherheitsanforderungen.</p>
+<p>Für maximale Flexibilität bieten wir dasselbe erstklassige KI-Erlebnis auch in der Cloud an – gehostet in Deutschland. Warum? Damit Sie sich keine Sorgen um Sicherheitsmaßnahmen und Compliance kümmern müssen. Unsere Cloud-Server ermöglichen eine reibungslose Integration Ihrer KI-Modelle und bieten dieselben Vorteile wie die lokalen Server: Datenschutz, geringe Latenzzeiten, Vertrauen in die Sicherheit Ihrer Daten und skalierbare Ressourcen nach Bedarf.</p>
+<p><strong>Warum Sie uns vertrauen können:</strong></p>
+<ul>
+<li><em>Datenschutz und Compliance:</em> Erfüllen Sie die deutschen Datenschutzvorschriften gemäß DSGVO, indem Sie Ihre Daten lokal oder in unserer sicheren Cloud hosten.</li>
+<li><em>Benutzerfreundliche Oberfläche:</em> Nutzen Sie unsere intuitive GUI und die einfache Schnittstelle, um KI-Funktionen ohne aufwändige Schulung zu integrieren.</li>
+<li><em>Schnelligkeit und Skalierbarkeit:</em> Geringe Latenzzeiten und die Möglichkeit, Ressourcen dynamisch anzupassen, bieten optimale Performance.</li>
+</ul>
+<p>Entdecken Sie mit unseren AI-Servern die Zukunft der KI – lokal oder in der Cloud, sicher, effizient und vollständig anpassbar an Ihre Bedürfnisse! ????</p>
+<h3><strong>Features unserer KI-Server</strong></h3>
+<p>Unsere <strong>Plug-and-Play-KI-Server</strong> sind die ideale Lösung für Unternehmen, die Künstliche Intelligenz (KI) in ihren Geschäftsprozessen nutzen möchten. Mit unserer innovativen Software <strong>“<a href="/product/software-private-ai-pilot/">Private AI Pilot</a>”</strong> bieten wir eine umfassende Plattform, die den Einsatz von Open-Source-Modellen vereinfacht und gleichzeitig die Einhaltung strenger Datenschutzvorschriften gewährleistet.</p>
+<div class="wp-video">
+<div style="width: 980px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-25932-1" width="980" height="551" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4?_=1" /><a href="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4">/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4</a></video></div>
+</div>
+<div></div>
+<p><strong>Warum Private AI Pilot?</strong></p>
+<ol>
+<li><strong>Sofort einsatzbereit</strong>: Unsere KI-Server sind vorkonfiguriert und sofort betriebsbereit. Keine aufwändige Installation oder Konfiguration erforderlich – einfach einstecken und loslegen!</li>
+<li><strong>Vielfältige Modellauswahl</strong>: In der “<a href="/product/software-private-ai-pilot/">Private AI Pilot</a>”-Software können Sie aus einer Vielzahl von Open-Source-Modellen wählen. Wir haben bereits vorinstallierte Modelle für verschiedene Anwendungsfälle, die je nach Servergröße optimiert sind.</li>
+<li><strong>Benutzerfreundliche GUI</strong>: Steuern Sie Ihre KI-Modelle bequem über eine intuitive grafische Benutzeroberfläche (GUI) direkt im Browser. Keine komplizierten Befehle oder Programmierkenntnisse erforderlich.</li>
+<li><strong>API-Zugriff</strong>: Für Entwickler bieten wir eine RESTful API über Swagger. Greifen Sie über API-Calls auf Ihre Modelle zu und integrieren Sie sie nahtlos in Ihre eigenen Anwendungen.</li>
+<li><strong>Datenschutz und Compliance</strong>: Als lokal gehostete Lösung ermöglicht Private AI Pilot die volle Kontrolle über Ihre Daten. Erfüllen Sie die deutschen Datenschutzvorschriften gemäß DSGVO und behalten Sie die Hoheit über Ihre sensiblen Informationen.</li>
+</ol>
+<p><strong>Features von Private AI Pilot:</strong></p>
+<ul>
+<li><strong>Modellbibliothek</strong>: Wählen Sie aus einer breiten Palette von KI-Modellen, darunter Bilderkennung, Sprachverarbeitung, Anomalieerkennung und mehr.</li>
+<li><strong>Automatische Skalierung</strong>: Unsere Server passen sich dynamisch an Ihre Anforderungen an. Skalieren Sie Ressourcen nach Bedarf, ohne Unterbrechungen.</li>
+<li><strong>Dokumentation und Support</strong>: Profitieren Sie von umfassender Dokumentation und unserem engagierten Support-Team.</li>
+</ul>
+<p>Entdecken Sie die Zukunft der KI mit Private AI Pilot – effizient, sicher und bereit für Ihre individuellen Anforderungen! ????</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/cloud-ai-server-hosting-in-deutschland/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading (feed)
+
+Served from: private-ai-server.de @ 2024-04-12 14:12:11 by W3 Total Cache
+-->

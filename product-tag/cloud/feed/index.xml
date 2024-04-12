@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cloud &#8211; Private AI Server</title>
+	<atom:link href="/product-tag/cloud/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DSGVO- und Gesetzeskonform</description>
+	<lastBuildDate>Sat, 17 Feb 2024 09:04:49 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Rechtskonforme AI API</title>
+		<link>/product/rechtskonforme-ai-api/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=rechtskonforme-ai-api</link>
+					<comments>/product/rechtskonforme-ai-api/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Sat, 17 Feb 2024 09:01:58 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=26038</guid>
+
+					<description><![CDATA[Revolutionäre KI-Power, gehostet in Deutschland für maximale DSGVO/Datenschutzkonformität. OpenAI konform, Prepaid-System.]]></description>
+										<content:encoded><![CDATA[<h2><strong>Unser gehosteter API-Dienst: Deutsches Hosting, DSGVO konform, Datenschutz-Compliant</strong></h2>
+<h2><span style="font-size: 16px;">Wir freuen uns, unseren gehosteten API-Dienst vorzustellen, der Benutzern ein nahtloses Erlebnis bietet, ähnlich wie bei der OpenAI API, jedoch mit einem entscheidenden Unterschied – unser Service ist in Deutschland gehostet und entspricht strikt der Datenschutz-Grundverordnung (DSGVO) und den höchsten Standards für Datenschutz.</span></h2>
+<p><strong>Hauptmerkmale:</strong></p>
+<ol>
+<li><strong>Infrastruktur in Deutschland:</strong> Unser API-Dienst läuft auf Servern, die in Deutschland gehostet sind. Dies gewährleistet die Datenhoheit und die Einhaltung der strengen DSGVO-Vorschriften. Ihre Daten verbleiben in der sicheren Umgebung der deutschen Infrastruktur, was zusätzliche Privatsphäre und Einhaltung bedeutet.</li>
+<li><strong>OpenAI-ähnliche Erfahrung:</strong> Genießen Sie die Einfachheit und Flexibilität der Nutzung unseres API-Dienstes ähnlich wie bei anderen beliebten Diensten. Mit der zusätzlichen Sicherheit der strengen Datenschutzstandards Deutschlands können Sie leistungsstarke KI-Fähigkeiten nutzen.</li>
+<li><strong>Konforme Modelle:</strong> Unsere Modelle sind sorgfältig entwickelt, um mit DSGVO und anderen Datenschutzstandards in Einklang zu stehen. Vertrauen Sie darauf, dass jede Inferenz, jede Interaktion mit dem API mit einem festen Engagement für Datenschutz und Compliance durchgeführt wird.</li>
+<li><strong>Vielseitigkeit für verschiedene Anwendungsfälle:</strong> Ob Sie im Finanzwesen, im Gesundheitswesen oder in einer anderen Branche mit hohen Anforderungen an den Datenschutz tätig sind – unser gehosteter API-Dienst ist vielseitig genug, um eine Vielzahl von Anwendungsfällen zu unterstützen. Nutzen Sie die Kraft der KI, ohne bei der Sicherheit Kompromisse einzugehen.</li>
+<li><strong>Entwicklerfreundliche Integration:</strong> Integrieren Sie unseren API-Dienst nahtlos in Ihre Anwendungen, Plattformen oder Arbeitsabläufe mit unserem entwicklerfreundlichen Ansatz. Eine robuste Dokumentation und Unterstützung gewährleisten einen reibungslosen Integrationsprozess für Entwickler.</li>
+</ol>
+<p>Mit der Auswahl unseres gehosteten API-Dienstes greifen Sie nicht nur auf fortschrittliche KI-Fähigkeiten zu; Sie entscheiden sich für eine Lösung, die Datenschutz, Compliance und die Zuverlässigkeit deutscher Hosting-Infrastruktur priorisiert. Revolutionieren Sie Ihre KI-gesteuerten Anwendungen mit Vertrauen – erleben Sie das nächste Level der Präzision mit unserem Gehosteten API-Dienst. ????????????????</p>
+<h3>Einfache Preise nach Prepaid-System</h3>
+<p>Das Pricing ist ähnlich wie bei Handy-Karten. Man &#8222;lädt&#8220; den Account auf, und kann dann die Credits verbrauchen.<br />
+Unser API Server läuft auf einem geteilten Server, wenn Sie besonders hohe Hosting-Anforderungen an geteiltes Hosting haben (z.B. im Gesundheits- und Finanzsektor), benötigen Sie eine dedizierte Server Instanz. Diese bieten wir als <a href="/product/ai-server-physisch/">AI Server (physisch)</a> und Cloud Server mit Hosting in Deutschland an.</p>
+<p>Die Preise für unsere geteilte API betragen ähnlich bekannten Tools nach Modell:</p>
+<ul>
+<li>&#8222;speed-api&#8220;: ca. in der Performance vergleichbar zur Leistung von 80% OpenAI&#8217;s gpt3.5
+<ul>
+<li>0.01€/1k prompt tokens. 0.03€/1k sample tokens.</li>
+</ul>
+</li>
+<li>&#8222;quality-api&#8220;: ca. in der Performance zwischen gpt3.5 und gpt4
+<ul>
+<li>0.05€/1k prompt tokens. 0.15€/1k sample tokens.</li>
+</ul>
+</li>
+</ul>
+<p>Bei größeren Verbrauchsmengen bieten wir auch <a href="/contact-1/">spezielle Volumenpreise an, kontaktieren Sie uns hierfür.</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/rechtskonforme-ai-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading (feed)
+
+Served from: private-ai-server.de @ 2024-04-12 14:12:24 by W3 Total Cache
+-->

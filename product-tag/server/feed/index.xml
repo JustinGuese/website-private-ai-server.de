@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>server &#8211; Private AI Server</title>
+	<atom:link href="/product-tag/server/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DSGVO- und Gesetzeskonform</description>
+	<lastBuildDate>Fri, 16 Feb 2024 11:41:56 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>AI Server (physisch)</title>
+		<link>/product/ai-server-physisch/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=ai-server-physisch</link>
+					<comments>/product/ai-server-physisch/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Thu, 15 Feb 2024 20:37:56 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=product#038;p=25924</guid>
+
+					<description><![CDATA[Unsere <strong>Plug-and-Play-KI-Server</strong> bieten eine sofort einsatzbereite Lösung für Unternehmen. Mit der innovativen Software <strong>“Private AI Pilot”</strong> können Sie aus einer Vielzahl von Open-Source-Modellen wählen und diese über eine benutzerfreundliche GUI oder RESTful API ansteuern. Gleichzeitig gewährleisten wir Datenschutz und Compliance gemäß den deutschen Vorschriften. Entdecken Sie die Zukunft der KI – sicher, effizient und individuell anpassbar!]]></description>
+										<content:encoded><![CDATA[<h2><strong>KI-Server für Datenschutz und Effizienz</strong></h2>
+<p>Tauchen Sie ein in die Zukunft der Künstlichen Intelligenz (KI) mit unseren innovativen KI-Servern, maßgeschneidert für deutsche Unternehmen, die höchste Anforderungen an Datenschutz und Effizienz haben. Unser Angebot umfasst nicht nur leistungsstarke Hardware, sondern auch eine durchdachte Cloud-Server-Lösung mit Hosting in Deutschland, die bereits die passenden GPUs für Ihre KI-Anwendungen enthält.</p>
+<h3><strong>Warum ein lokaler AI Server?</strong></h3>
+<ol>
+<li><a class="tooltip-target hover" href="https://www.cmshs-bloggt.de/tmc/datenschutzrecht/dsgvo-ki/" target="_blank" rel="noopener" data-citationid="c9bab8c9-5eb7-35f8-9db0-6af73fc9e71c-13-group"><strong>Datenschutz und Compliance</strong>: In Deutschland gelten strenge Datenschutzvorschriften, insbesondere die Datenschutz-Grundverordnung (DSGVO) </a><a class="ac-anchor sup-target" href="https://www.cmshs-bloggt.de/tmc/datenschutzrecht/dsgvo-ki/" target="_blank" rel="noopener" data-citationid="c9bab8c9-5eb7-35f8-9db0-6af73fc9e71c-13" aria-label="1: Datenschutz und Compliance"><sup class="citation-sup">1</sup></a>. Unsere KI-Server entsprechen den strengen deutschen Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO). Alle Daten bleiben lokal, in Ihrer eigenen Infrastruktur, und Sie behalten die volle Kontrolle über die Verarbeitung personenbezogener Daten.</li>
+<li><strong>Schnelligkeit und Latenz</strong>: Lokales Hosting bedeutet geringe Latenzzeiten, entscheidend für Echtzeitanwendungen wie Spracherkennung, Bildverarbeitung oder automatisierte Entscheidungsfindung. Die Datenübertragung erfolgt direkt und sicher, ohne Umwege über das Internet.</li>
+<li><strong>Vertrauen und Sicherheit</strong>: Mit einem lokalen Server gewährleisten wir, dass Ihre sensiblen KI-Modelle und Daten nicht in die falschen Hände geraten. Implementieren Sie individuelle Sicherheitsmaßnahmen nach Ihren Anforderungen und gewährleisten Sie die Integrität Ihrer KI-Systeme.</li>
+<li><strong>Skalierbarkeit</strong>: Unsere KI-Server sind flexibel skalierbar, sodass Sie Ressourcen hinzufügen können, wenn Ihr Unternehmen wächst. Die Leistung kann je nach Bedarf erweitert werden, um stets optimalen Support zu bieten.</li>
+</ol>
+<h3><strong>Features unserer KI-Server</strong></h3>
+<p>Unsere <strong>Plug-and-Play-KI-Server</strong> sind die ideale Lösung für Unternehmen, die Künstliche Intelligenz (KI) in ihren Geschäftsprozessen nutzen möchten. Mit unserer innovativen Software <strong>“<a href="/product/software-private-ai-pilot/">Private AI Pilot</a>”</strong> bieten wir eine umfassende Plattform, die den Einsatz von Open-Source-Modellen vereinfacht und gleichzeitig die Einhaltung strenger Datenschutzvorschriften gewährleistet.</p>
+<div style="width: 980px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-25924-1" width="980" height="551" preload="metadata" controls="controls"><source type="video/mp4" src="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4?_=1" /><a href="/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4">/wp-content/uploads/2024/02/Private-AI-Copilot-Demo.mp4</a></video></div>
+<p><strong>Warum Private AI Pilot?</strong></p>
+<ol>
+<li><strong>Sofort einsatzbereit</strong>: Unsere KI-Server sind vorkonfiguriert und sofort betriebsbereit. Keine aufwändige Installation oder Konfiguration erforderlich – einfach einstecken und loslegen!</li>
+<li><strong>Vielfältige Modellauswahl</strong>: In der “<a href="/product/software-private-ai-pilot/">Private AI Pilot</a>”-Software können Sie aus einer Vielzahl von Open-Source-Modellen wählen. Wir haben bereits vorinstallierte Modelle für verschiedene Anwendungsfälle, die je nach Servergröße optimiert sind.</li>
+<li><strong>Benutzerfreundliche GUI</strong>: Steuern Sie Ihre KI-Modelle bequem über eine intuitive grafische Benutzeroberfläche (GUI) direkt im Browser. Keine komplizierten Befehle oder Programmierkenntnisse erforderlich.</li>
+<li><strong>API-Zugriff</strong>: Für Entwickler bieten wir eine RESTful API über Swagger. Greifen Sie über API-Calls auf Ihre Modelle zu und integrieren Sie sie nahtlos in Ihre eigenen Anwendungen.</li>
+<li><strong>Datenschutz und Compliance</strong>: Als lokal gehostete Lösung ermöglicht Private AI Pilot die volle Kontrolle über Ihre Daten. Erfüllen Sie die deutschen Datenschutzvorschriften gemäß DSGVO und behalten Sie die Hoheit über Ihre sensiblen Informationen.</li>
+</ol>
+<p><strong>Features von Private AI Pilot:</strong></p>
+<ul>
+<li><strong>Modellbibliothek</strong>: Wählen Sie aus einer breiten Palette von KI-Modellen, darunter Bilderkennung, Sprachverarbeitung, Anomalieerkennung und mehr.</li>
+<li><strong>Automatische Skalierung</strong>: Unsere Server passen sich dynamisch an Ihre Anforderungen an. Skalieren Sie Ressourcen nach Bedarf, ohne Unterbrechungen.</li>
+<li><strong>Dokumentation und Support</strong>: Profitieren Sie von umfassender Dokumentation und unserem engagierten Support-Team.</li>
+</ul>
+<p>Entdecken Sie die Zukunft der KI mit Private AI Pilot – effizient, sicher und bereit für Ihre individuellen Anforderungen! ????</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/product/ai-server-physisch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading (feed)
+
+Served from: private-ai-server.de @ 2024-04-12 14:12:32 by W3 Total Cache
+-->

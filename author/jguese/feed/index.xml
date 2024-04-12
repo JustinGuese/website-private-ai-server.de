@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jguese &#8211; Private AI Server</title>
+	<atom:link href="/author/jguese/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>DSGVO- und Gesetzeskonform</description>
+	<lastBuildDate>Mon, 26 Feb 2024 11:10:50 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Warum Kliniken Patientendaten nicht in einer einzige Datenbank speichern sollten</title>
+		<link>/2024/02/26/warum-kliniken-patientendaten-nicht-in-einer-einzige-datenbank-speichern-sollten/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=warum-kliniken-patientendaten-nicht-in-einer-einzige-datenbank-speichern-sollten</link>
+					<comments>/2024/02/26/warum-kliniken-patientendaten-nicht-in-einer-einzige-datenbank-speichern-sollten/#respond</comments>
+		
+		<dc:creator><![CDATA[jguese]]></dc:creator>
+		<pubDate>Mon, 26 Feb 2024 10:50:06 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=26206</guid>
+
+					<description><![CDATA[Die Speicherung von&#160;Patientendaten&#160;ist ein sensibles Thema, insbesondere im Gesundheitswesen. Hier sind einige Gründe, warum Kliniken darauf achten sollten, Patientendaten nicht alle in einer einzigen Datenbank zu speichern: Insgesamt ist es wichtig, dass Kliniken sorgfältig darüber nachdenken, wie sie Patientendaten speichern und verwalten. Die Sicherheit und der Schutz der Privatsphäre der Patienten sollten immer an erster [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Die Speicherung von&nbsp;<strong>Patientendaten</strong>&nbsp;ist ein sensibles Thema, insbesondere im Gesundheitswesen. Hier sind einige Gründe, warum Kliniken darauf achten sollten, Patientendaten nicht alle in einer einzigen Datenbank zu speichern:</p>
+
+
+
+<ol>
+<li><strong>Datenschutz und Vertraulichkeit</strong>: Gesundheitsinformationen sind besonders schützenswert. Sie unterliegen nicht nur dem Datenschutz, sondern auch dem Arztgeheimnis. Wenn alle Daten in einer einzigen Datenbank gespeichert werden, erhöht sich das Risiko unbefugter Zugriffe.&nbsp;<a href="https://www.datenschutz.org/patientendaten/" target="_blank" rel="noreferrer noopener">Getrennte Speicherung ermöglicht eine bessere Kontrolle über den Zugriff auf sensible Informationen</a><a href="https://www.datenschutz.org/patientendaten/" target="_blank" rel="noreferrer noopener"><sup>1</sup></a>.</li>
+
+
+
+<li><strong>Differenzierte Zugriffsrechte</strong>: Nicht alle Mitarbeiter in einer Klinik benötigen Zugriff auf alle Patientendaten. Ärzte, Pflegepersonal und Verwaltungsmitarbeiter haben unterschiedliche Anforderungen. Durch die getrennte Speicherung können Zugriffsrechte besser verwaltet werden.&nbsp;<a href="https://www.datenschutz.org/patientendaten/">Sensible Daten sollten nur für autorisierte Personen zugänglich sein</a><a href="https://gesundheit-digitalisieren.de/knowhow/krankenhausinformationssysteme/" target="_blank" rel="noreferrer noopener"><sup>2</sup></a>.</li>
+
+
+
+<li><strong>Pseudonymisierung und Anonymisierung</strong>: Bei der getrennten Speicherung können pseudonymisierte und anonymisierte Daten separat verwaltet werden. Pseudonymisierte Daten enthalten einen eindeutigen Schlüssel (z. B. eine Patienten-ID), der die Identifizierung ermöglicht, aber keine direkten personenbezogenen Informationen enthält. Anonymisierte Daten sind vollständig entpersonalisiert.&nbsp;<a href="https://www.datenschutz.org/patientendaten/" target="_blank" rel="noreferrer noopener">Dies ermöglicht eine effektive Forschung, ohne die Privatsphäre der Patienten zu gefährden</a><a href="https://www.datenschutz.org/patientendaten/" target="_blank" rel="noreferrer noopener"><sup>1</sup></a>.</li>
+
+
+
+<li><strong>Risikominderung</strong>: Wenn alle Daten in einer einzigen Datenbank gespeichert werden, erhöht sich das Risiko von Datenverlust, Hacking oder technischen Fehlern.&nbsp;<a href="https://pro.jameda.de/blog/datenschutz-in-der-arztpraxis" target="_blank" rel="noreferrer noopener">Getrennte Speicherung minimiert diese Risiken und erleichtert die Wiederherstellung im Falle eines Problems</a><a href="https://pro.jameda.de/blog/datenschutz-in-der-arztpraxis" target="_blank" rel="noreferrer noopener"><sup>3</sup></a>.</li>
+</ol>
+
+
+
+<p>Insgesamt ist es wichtig, dass Kliniken sorgfältig darüber nachdenken, wie sie Patientendaten speichern und verwalten. Die Sicherheit und der Schutz der Privatsphäre der Patienten sollten immer an erster Stelle stehen.</p>
+
+
+
+<h3 class="wp-block-heading">Die Lösung ist eine automatisch pseudonymisierende Datenbank</h3>
+
+
+
+<p>Unsere Datenbank <a href="/product/rechtskonforme-datenbank-relational-vektor-unstrukturiert/" data-type="product" data-id="26043">Rechtskonforme Datenbank (relational, Vektor, unstrukturiert)</a> kategorisiert automatisch die Spalten, welche die sensiblen Daten beinhalten, und speichert sie getrennt in zwei Datenbanken. Außerdem können Sie auch auswählen einen komplett anonymisierten Datensatz zu erstellen, welcher zB für die Forschung verwendet werden kann.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/02/26/warum-kliniken-patientendaten-nicht-in-einer-einzige-datenbank-speichern-sollten/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced (Requested URI contains query) 
+Lazy Loading (feed)
+
+Served from: private-ai-server.de @ 2024-04-12 14:12:44 by W3 Total Cache
+-->
